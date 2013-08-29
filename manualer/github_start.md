@@ -1,6 +1,3 @@
-Github - Hur du hanterar dina utvecklingsfiler
-==============================================
-
 Denna handledning innehåller en introduktion till git och github, varför vi vill att du använder github i undervisningen samt en guide hur du kommer igång att jobbar med git och github på mac och windows.
 För att hänga med i guiden krävs grundläggande datorkunskap.
 
@@ -19,6 +16,9 @@ Tre vanlig aord som används på github är:
 * "forking" - Detta iinebär att man hittar ett intressant projekt som någon annan lagt ut. "Forkar" man då detta projekt får man en kompia av alla filer som man kan fortsätta jobba med efter eget huvud.
 * "pull request" - Detta innebär att du har forkat ett projekt och gjort förändringar som du vill dela med dig av till orginalprojketet
 * "merge" - Om ägaren av orginalprojketet tycker att dina ändringar är bra kan hon/han välja att baka in dessa i orginalkoden d.v.s. göra en "merge"
+* repositories - "repos" är egentligen ett projekt. Man kallar en versionhanterad mapp som innehåller filer för ett "repos".
+* commit - Att "commita" sina ändringar talar om att man nu har uppdaterat sina filer och sparar dessa i en ny version, en commit.
+
 
 Här är några fler resurser kring git och github:
 [Introduction to Git with Scott Chacon of GitHub](http://www.youtube.com/watch?v=ZDR433b0HJY "Youtubevideo om git")
@@ -38,26 +38,51 @@ I många av våra kurser kommer det vara krav på att använda github för att h
 
 Hur börjar man med github?
 ---
-Det första Du bör göra är att [skapa dig ett konto på github](http://www.github.com). Här är det viktigt att du __registrar dig med din studentmejl från LNU__. Detta för att du ska kunna registrera ett education-konto och på så sätt kunna ksap vad man kallar privata repositorier, alltså kodprojekt som ingen annan än du kan se. Välj också gärna ett användarnamn som innehåller ditt användarnamn här på LNU.
+Det första Du bör göra är att [skapa dig ett konto på github](http://www.github.com). Här är det viktigt att du __registrar dig med din studentmejl från LNU__. Detta för att du ska kunna registrera ett education-konto och på så sätt kunna ksap vad man kallar privata repositorier, alltså kodprojekt som ingen annan än du kan se (än de du talar om ska se det). Välj också gärna ett användarnamn som innehåller ditt användarnamn här på LNU.
 
 ![Skapa ett konto på github][github_reg] 
 
 Fyll i formuläret som ovan fast med ditt eget användarnamn.
 
+![Skapa ett educationkonto på github][github_reg_edu] 
+
+
+Uppgradera ditt github-konto till education
+---------------------------------------------
+Nästa steg är att registrera detta nyskapade konto som ett studentkonto. Gå till länken: [http://www.github.com/edu](http://www.github.com/edu)
+Välj **I'm a student** och **sign in here** och följ instruktionerna. Efter denna process bör du få ett mejl från github och du har möjlighet att skapa privata så kallade repoositorier. Oftast komemr du använda repositorie per kurs.
+
+
+Skapa ett repositorie
+-----------------------
+Nu är det dags att skapa ditt första repositorie. Det gör du från din startsida på github när du loggat in.
+![Githubs startsida - inloggad][github_startpage] 
+
+Klicka på knappen "new repository" och fyll i dina uppgifter. Går du en kurs har du säkert fått information om vad du ska döpa detta repositorie till.
+![Githubs - skapa ett nytt repositorie][github_repo_new] 
+Du kan här välja om du vill skapa ditt repositorie public (alla kan se din kod) eller private. Bara du och de du delar ditt repositorie med kan se dina filer.
+
+
+Dela ditt repositorie
+----------------------
+Ska du använda ditt repositorie i en kurs är det troligt att du ska dela det med din lärares kurskonto. Möjligheten till att dela ditt hittar du genom att klicka på
+ikonen med verktyg (settings) till höger på sidan.
+![Inställningar i github][github_settings] 
+
+Välj sedan "Collaborators" och skriv in namnet på det kontot/användarnamnet du vill dela ditt repositorie med:
+![Collaborators][github_collaborator] 
+
+
 
 [github_reg]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_register.png "Github registration"
+[github_reg_edu]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_register_edu.png "Github registration education"
+[github_startpage]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_startpage.png "Github startpage"
+[github_repo_new]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_repo_new.png "New repository"
+[github_settings]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_settings.png "Settings"
+[github_collaborator]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_collaborator.png "github_collaborator"
 
-
-
-
-
-	- Skapa konto, registrera dig med användarnamn
-	- Uppdatera till education
-	- Skapa ett nytt repositorie, dela det med lärare
-	- Ladda ner och installera en klient (mac och windows)
-	- Börja utveckla
-		- Sync och commit
-		- Ändra och commit
-		- View history
-		
-	- github pages
+Att börja jobba med ditt repositorie
+-------------------------------------
+Då är det dags att börja utveckla och "commita" din kod till ditt github.
+Det enklaste sättet att komma igång är att ladda ner githubs programvara. Det finns en version för Mac och en version för Windows. 
+[Ladda ner det program som fungerar för ditt operativsystem](https://help.github.com/articles/set-up-git). Kör du Linux eller Chrome OS finns det ingen grafisk programvara och du är tvungen att använda terminalen för att skriva kommandon.
