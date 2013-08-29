@@ -40,12 +40,12 @@ Hur börjar man med github?
 ---
 Det första Du bör göra är att [skapa dig ett konto på github](http://www.github.com). Här är det viktigt att du __registrar dig med din studentmejl från LNU__. Detta för att du ska kunna registrera ett education-konto och på så sätt kunna ksap vad man kallar privata repositorier, alltså kodprojekt som ingen annan än du kan se. Välj också gärna ett användarnamn som innehåller ditt användarnamn här på LNU.
 
-![Skapa ett konto på github][0] 
+![Skapa ett konto på github][github_reg] 
 
 Fyll i formuläret som ovan fast med ditt eget användarnamn.
 
 
-[0]: ./images/github_register.png "Github registration"
+[github_reg]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_register.png "Github registration"
 
 
 
