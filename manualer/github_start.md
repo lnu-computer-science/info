@@ -2,7 +2,7 @@ Denna handledning innehåller en introduktion till git och github, varför vi vi
 För att hänga med i guiden krävs grundläggande datorkunskap.
 
 Vad är git och github?
---------
+---------
 
 [git](http://git-scm.com/ "Den officella sidan om git") är ett versionhanteringssytem som är utarbetat främst för utvecklare och hantering av kod. Med ett [versionshanteringssystem](http://sv.wikipedia.org/wiki/Versionshantering) menas att systemet hjälper användaren att hantera filer och spara dem i olika versioner så att man kan spåra förändringar och gå tillbaka i historiken. Det ger också möjligheter för flera utvecklare att kunna samarbeta kring samma filer utan att riskera att man skriver över någon annans arbete. 
 
