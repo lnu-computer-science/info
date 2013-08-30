@@ -85,4 +85,15 @@ Att börja jobba med ditt repositorie
 -------------------------------------
 Då är det dags att börja utveckla och "commita" din kod till ditt github.
 Det enklaste sättet att komma igång är att ladda ner githubs programvara. Det finns en version för Mac och en version för Windows. 
-[Ladda ner det program som fungerar för ditt operativsystem](https://help.github.com/articles/set-up-git). Kör du Linux eller Chrome OS finns det ingen grafisk programvara och du är tvungen att använda terminalen för att skriva kommandon.
+[Version för Mac](http://mac.github.com/)
+[Version för Windows](http://windows.github.com/)
+
+Kör du Linux eller Chrome OS finns det ingen grafisk programvara och du är tvungen att använda terminalen för att skriva kommandon.
+
+Installera programvaran och logga in med dina kontouppgifter för ditt skapade github-konto. Du bör nu få ut ditt/dina repositorier och kan välja "Clone to computer". 
+Det innebär att du kan ha dina filer lokalt på din egen dator och när du gjort ändringar skicka upp dessa till github. Filmen nedan visar hur du kan arbeta med programmet och dess koppling till github.
+
+[Film för windows]()
+[Film för Mac]()
+
+Nu vet du vad git och github är och hur du kommer igång och arbetar med den klienten som github tillhandahåller. Nu är det dags att börja utveckla!
