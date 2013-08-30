@@ -63,7 +63,7 @@ Klicka på knappen "new repository" och fyll i dina uppgifter. Går du en kurs h
 Du kan här välja om du vill skapa ditt repositorie public (alla kan se din kod) eller private. Bara du och de du delar ditt repositorie med kan se dina filer.
 
 
-Dela ditt repositorie
+Dela ditt repositorie *(OBS, kan skilja sig från kurs till kurs)*
 ----------------------
 Ska du använda ditt repositorie i en kurs är det troligt att du ska dela det med din lärares kurskonto. Möjligheten till att dela ditt hittar du genom att klicka på
 ikonen med verktyg (settings) till höger på sidan.
@@ -73,15 +73,7 @@ Välj sedan "Collaborators" och skriv in namnet på det kontot/användarnamnet d
 ![Collaborators][github_collaborator] 
 
 
-
-[github_reg]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_register.png "Github registration"
-[github_reg_edu]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_register_edu.png "Github registration education"
-[github_startpage]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_startpage.png "Github startpage"
-[github_repo_new]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_repo_new.png "New repository"
-[github_settings]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_settings.png "Settings"
-[github_collaborator]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_collaborator.png "github_collaborator"
-
-Att börja jobba med ditt repositorie
+Att börja jobba med ditt repositorie *(OBS, kan skilja sig från kurs till kurs)*
 -------------------------------------
 Då är det dags att börja utveckla och "commita" din kod till ditt github.
 Det enklaste sättet att komma igång är att ladda ner githubs programvara. Det finns en version för Mac och en version för Windows. 
@@ -97,3 +89,11 @@ Det innebär att du kan ha dina filer lokalt på din egen dator och när du gjor
 [Film för Mac]()
 
 Nu vet du vad git och github är och hur du kommer igång och arbetar med den klienten som github tillhandahåller. Nu är det dags att börja utveckla!
+
+
+[github_reg]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_register.png "Github registration"
+[github_reg_edu]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_register_edu.png "Github registration education"
+[github_startpage]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_startpage.png "Github startpage"
+[github_repo_new]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_repo_new.png "New repository"
+[github_settings]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_settings.png "Settings"
+[github_collaborator]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_collaborator.png "github_collaborator"
