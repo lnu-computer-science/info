@@ -1,23 +1,24 @@
-Denna handledning innehåller en introduktion till git och github, varför vi vill att du använder github i undervisningen samt en guide hur du kommer igång att jobbar med git och github på mac och windows.
+Denna handledning innehåller en introduktion till git och github, varför vi vill att du använder github i undervisningen samt en guide hur du kommer igång att jobbar med git och github på mac och windows. Observera dock att kursena kan ha olika krav på hur man ska använda github men det framgår av respektive kurs webbplats.
 För att hänga med i guiden krävs grundläggande datorkunskap.
 
 Vad är git och github?
 --------
 
-[git](http://git-scm.com/ "Den officella sidan om git") är ett versionhanteringssytem som är utarbetat främst för utvecklare och hantering av kod. Med versionshanteringssytem menas att systemet hjälper utvecklare att hantera alla de filer som oftast ingår i ett utvecklingsprojekt. Det ger möjligheter för flera utvecklare att kunna arbeta med samma filer utan att riskera att man skriver över någon annans arbete. Varje gång man ändrar i en fil sparas den som en ny version. Man kan också gå tillbaka i versionerna för att komma tillbaka till ett utgångsläge.
+[git](http://git-scm.com/ "Den officella sidan om git") är ett versionhanteringssytem som är utarbetat främst för utvecklare och hantering av kod. Med ett [versionshanteringssystem](http://sv.wikipedia.org/wiki/Versionshantering) menas att systemet hjälper användaren att hantera filer och spara dem i olika versioner så att man kan spåra förändringar och gå tillbaka i historiken. Det ger också möjligheter för flera utvecklare att kunna samarbeta kring samma filer utan att riskera att man skriver över någon annans arbete. 
 
-Ni kommer under er utbildning att använda er av git samt andra versionhanteringssytem så som t.ex. subversion (svn).
-Git skapades av [Linus Torvalls](http://sv.wikipedia.org/wiki/Linus_Torvalds "Linus Torvalds wikipedia"), ett namn som säkert många känner till som skaparen till operativsystemet Linux. Git uppkom helt enkelt för att Linus inte tyckte att det fanns bra fritt versionhanteringssystem som kunde hantera all kod som Linux består av och alla de utvecklare som är inblandade i projektet. 
+Du kommer under din utbildning att använda dig av git men även andra versionhanteringssytem så som t.ex. subversion (svn).
+Git skapades av [Linus Torvalls](http://sv.wikipedia.org/wiki/Linus_Torvalds "Linus Torvalds wikipedia"), ett namn som säkert många känner till som skaparen till operativsystemet Linux. [Git uppkom](http://git-scm.com/book/en/Getting-Started-A-Short-History-of-Git) helt enkelt för att Linus inte tyckte att det fanns ett bra och fritt versionhanteringssystem som kunde hantera all kod som Linux består av och alla de olika utvecklare som är inblandade i utvecklingen av Linux. 
 
-I många av våra kurser som vi använda tjänsten [github](http://github.com/ "Githubs hemsida") som använder sig av git. Github är en tjänst som ger oss som utvecklare möjlighet att, via webben, skapa, hantera och lagra projekt via git. Github ger oss också möjlighet att dela kod med andra, studera andras kod och använda andras kod för att bygga nya applikationer eller föreslå förändringar. Github är alltså en tjänst för "social coding". Man kan dock också använda github för att dela utvecklingsfiler i privata grupper eller som ensam utvecklare hantera sina filer.
+I många av våra kurser kommer vi använda tjänsten [github](http://github.com/ "Githubs hemsida"). Github är en tjänst som ger oss utvecklare möjlighet att, via webben, skapa, hantera och lagra projekt via git. Github ger oss också möjlighet att dela kod med andra, studera andras kod och använda andras kod för att bygga vidare på. Github är alltså en tjänst för "social coding". Man kan dock också använda github för att dela utvecklingsfiler i privata grupper eller som ensam utvecklare hantera sina filer på ett smidigt sätt.
 
-Tre vanlig aord som används på github är:
+När man som ovan börjar jobba med git och github kommer man stöta på vissa ord som är viktiga att känna till. Vanliga ord som vi kommer använda är:
 
-* "forking" - Detta iinebär att man hittar ett intressant projekt som någon annan lagt ut. "Forkar" man då detta projekt får man en kompia av alla filer som man kan fortsätta jobba med efter eget huvud.
-* "pull request" - Detta innebär att du har forkat ett projekt och gjort förändringar som du vill dela med dig av till orginalprojketet
-* "merge" - Om ägaren av orginalprojketet tycker att dina ändringar är bra kan hon/han välja att baka in dessa i orginalkoden d.v.s. göra en "merge"
-* repositories - "repos" är egentligen ett projekt. Man kallar en versionhanterad mapp som innehåller filer för ett "repos".
-* commit - Att "commita" sina ändringar talar om att man nu har uppdaterat sina filer och sparar dessa i en ny version, en commit.
+* Repositories - "repos" är oftast ett projekt. Man kallar en versionhanterad mapp som innehåller filer för ett "repos". Du har oftast ett repo för en kurs.
+* Commit - Att "commita" sina ändringar talar om att man nu har uppdaterat sina filer och sparar dessa i en ny version, en commit.
+* Forking - Detta innebär att man hittar ett intressant projekt som någon annan lagt ut och som man själv vill bygga vidare på. "Forkar" man då projektet får man en kopia av alla filer som man kan fortsätta jobba med efter eget huvud.
+* Pull request - Detta innebär att du har forkat ett projekt/repositorie och gjort förändringar i detta som du vill dela med dig av till orginalprojketet kan du föreslå detta för repositorie-ägaren. Du gör då en "pull request" som ägaren får godkänna.
+* Merge - Om ägaren av repositoriet tycker att dina ändringar är bra kan hon/han välja att baka in dessa i orginalkoden d.v.s. göra en "merge", en sammanslagning.
+
 
 
 Här är några fler resurser kring git och github:
