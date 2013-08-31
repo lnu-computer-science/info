@@ -1,5 +1,7 @@
 Denna handledning innehåller en introduktion till git och github, varför vi vill att du använder github i undervisningen samt en guide hur du kommer igång att jobbar med git och github på mac och windows. Observera dock att kursena kan ha olika krav på hur man ska använda github men det framgår av respektive kurs webbplats.
+
 För att hänga med i guiden krävs grundläggande datorkunskap.
+
 Har du tidigare arbetat med git/github kan du mycket väl ha invanda arbetssätt som du är fri att använda även i våra kurser, men läs igenom guiden nedan så du får en bild av vilka speciella krav vi ställer. Guiden är förenklad för att passa nybörjare.
 
 Vad är git och github?
