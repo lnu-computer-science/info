@@ -95,6 +95,7 @@ Det innebär att du kan ha dina filer lokalt på din egen dator och när du gjor
 Nu vet du vad git och github är och hur du kommer igång och arbetar med den klienten som github tillhandahåller. Nu är det dags att börja utveckla!
 
 Referenser:
+
 * [Pro Git](http://git-scm.com/book) - Fri e-bok som är fullmatad med nyttig information kring Git.
 
 [github_reg]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_register.png "Github registration"
