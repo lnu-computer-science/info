@@ -76,6 +76,8 @@ Välj sedan "Collaborators" och skriv in namnet på det kontot/användarnamnet d
 
 Att börja jobba med ditt repositorie *(OBS, kan skilja sig från kurs till kurs)*
 -------------------------------------
+Hur du kan komma att jobba med dina versionhanterade filer och github kan skilja sig lite från kurs till kurs så för korrekt information se respektive kurs
+
 Då är det dags att börja utveckla och "commita" din kod till ditt github.
 Det enklaste sättet att komma igång är att ladda ner githubs programvara. Det finns en version för Mac och en version för Windows. 
 [Version för Mac](http://mac.github.com/)
