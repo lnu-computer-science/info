@@ -2,8 +2,6 @@ Denna handledning innehåller en introduktion till git och github samt en förkl
 
 För att hänga med i guiden krävs grundläggande datorkunskap.
 
-Denna handledning är versionshanterad i github och förslag på ändringar och förbättringar kan där ges:
-
 Har du tidigare arbetat med git/github kan du mycket väl ha invanda arbetssätt som du är fri att använda även i våra kurser, men läs igenom guiden nedan så du får en bild av vilka speciella krav vi ställer. Guiden är förenklad för att passa nybörjare.
 
 Vad är git och github?
@@ -81,7 +79,9 @@ Att börja jobba med ditt repositorie
 -------------------------------------
 Nu bör du vara registread på github med ett education-konto och du kan egentligen börja använda github för att hantera dina filer i dina kurser. Detta kan skilja sig lite åt från kurs till kurs med hur du gör bör där framgå av kurshemsidan.
 
-
+Föreslå förändringar på denna handledning
+------------------------------------------
+Detta dokument ligger på [github](https://github.com/LNU-CoursePress/info/blob/master/manualer/github_start.md) och hittar du felaktigheter eller vill föreslå förändringar går det bra att göra det där.
 
 Referenser:
 
