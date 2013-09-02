@@ -58,9 +58,11 @@ Välj **I'm a student** och **sign in here** och följ instruktionerna. Efter de
 Skapa ett repositorie
 -----------------------
 Nu är det dags att skapa ditt första repositorie. Det gör du från din startsida på github när du loggat in.
+
 ![Githubs startsida - inloggad][github_startpage] 
 
 Klicka på knappen "new repository" och fyll i dina uppgifter. Går du en kurs har du säkert fått information om vad du ska döpa detta repositorie till.
+
 ![Githubs - skapa ett nytt repositorie][github_repo_new] 
 Du kan här välja om du vill skapa ditt repositorie public (alla kan se din kod) eller private. Bara du och de du delar ditt repositorie med kan se dina filer. Beroende på kurs så kan det vara olika krav på om koden får vara publik eller privat. 
 
@@ -69,9 +71,11 @@ Dela ditt repositorie *(OBS, kan skilja sig från kurs till kurs)*
 ----------------------
 Ska du använda ditt repositorie i en kurs är det troligt att du ska dela det med din lärares kurskonto. Möjligheten till att dela ditt hittar du genom att klicka på
 ikonen med verktyg (settings) till höger på sidan.
+
 ![Inställningar i github][github_settings] 
 
 Välj sedan "Collaborators" och skriv in namnet på det kontot/användarnamnet du vill dela ditt repositorie med:
+
 ![Collaborators][github_collaborator] 
 
 
