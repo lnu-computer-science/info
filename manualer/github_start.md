@@ -59,7 +59,7 @@ Skapa ett repositorie
 -----------------------
 Nu är det dags att skapa ditt första repositorie. Det gör du från din startsida på github när du loggat in.
 
-![Githubs startsida - inloggad][github_startpage] 
+<img src="https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_startpage.png" width="80%" />
 
 Klicka på knappen "new repository" och fyll i dina uppgifter. Går du en kurs har du säkert fått information om vad du ska döpa detta repositorie till.
 
