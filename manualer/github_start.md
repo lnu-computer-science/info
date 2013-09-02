@@ -87,7 +87,8 @@ Föreslå förändringar på denna handledning
 ------------------------------------------
 Detta dokument ligger på [github](https://github.com/LNU-CoursePress/info/blob/master/manualer/github_start.md) och hittar du felaktigheter eller vill föreslå förändringar går det bra att göra det där.
 
-Referenser:
+Referenser
+-----------
 
 * [Pro Git](http://git-scm.com/book) - Fri e-bok som är fullmatad med nyttig information kring Git.
 
