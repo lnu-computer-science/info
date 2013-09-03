@@ -81,7 +81,7 @@ Välj sedan "Collaborators" och skriv in namnet på det kontot/användarnamnet d
 
 Att börja jobba med ditt repositorie 
 -------------------------------------
-Nu bör du vara registread på github med ett education-konto och du kan egentligen börja använda github för att hantera dina filer i dina kurser. Detta kan skilja sig lite åt från kurs till kurs med hur du gör bör där framgå av kurshemsidan.
+Nu bör du vara registrerad på github med ett education-konto och du kan egentligen börja använda github för att hantera dina filer i dina kurser. Detta kan skilja sig lite åt från kurs till kurs med hur du gör bör där framgå av kurshemsidan.
 
 Föreslå förändringar på denna handledning
 ------------------------------------------
