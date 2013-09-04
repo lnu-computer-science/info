@@ -1,20 +1,19 @@
+Denna handledning visar hur man koan jobba med githubs grafiska applikationer för att hantera sina repositorier. Om du inte läst [introduktionen till git och github](https://coursepress.lnu.se/info/manual/kom-igang-med-github/) bör du göra det innan du går igenom denna handledning
 
-Då är det dags att börja utveckla och "commita" din kod till ditt github.
-=======
-Då är det dags att börja utveckla och "commita" till git och trycka dessa förändringar till github.
->>>>>>> b2c14b09e3d7078b1a1716ea38c2fba90822f60b
-=======
-Då är det dags att börja utveckla och "commita" till git och trycka dessa förändringar till github.
->>>>>>> b2c14b09e3d7078b1a1716ea38c2fba90822f60b
-Det enklaste sättet att komma igång är att ladda ner githubs programvara. Det finns en version för Mac och en version för Windows. 
+Github har två olika versioner av program för att enklare kunna jobba mot github, en för mac och en för windows.
+
 [Version för Mac](http://mac.github.com/)
+
 [Version för Windows](http://windows.github.com/)
 
-Kör du andra operativsystem så är det inte säkert att det finns en grafisk programvara och du kan vara tvungen att använda terminalen för att skriva kommandon gentemot ditt repositorie, något som avancerade/vana användare ofta föredrar.
 
-Installera programvaran och logga in med dina kontouppgifter för ditt skapade github-konto. Du bör nu få ut ditt/dina repositorier och kan välja "Clone to computer". 
-Det innebär att du kan ha dina filer lokalt på din egen dator och när du gjort ändringar skicka upp dessa till github. Filmen nedan visar hur du kan arbeta med programmet och dess koppling till github.
+Kör du andra operativsystem (Linux, Google Chrome) så är det inte säkert att det finns en grafisk programvara och du kan vara tvungen att använda terminalen för att skriva kommandon gentemot ditt repositorie, något som avancerade/vana användare ofta föredrar.
+
+Ladda ner och installera programvaran för det operativsystem du använder genom länkarna ovan. 
+
+Nedan följer två inspelade filmer för att se hur du kan arbeta med den grafiska klienten för respektive operativsystem.
 
 [Film för windows]()
+
 [Film för Mac]()
 
