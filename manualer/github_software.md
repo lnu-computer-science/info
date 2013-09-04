@@ -13,7 +13,7 @@ Ladda ner och installera programvaran för det operativsystem du använder genom
 
 Nedan följer två inspelade filmer för att se hur du kan arbeta med den grafiska klienten för respektive operativsystem.
 
-[Film för windows]()
+[Film för windows](http://orion.lnu.se/pub/information/coursepress/info/video/github/github_app_mac.mp4)
 
-[Film för Mac]()
+[Film för Mac](http://orion.lnu.se/pub/information/coursepress/info/video/github/github_app_win.mp4)
 
