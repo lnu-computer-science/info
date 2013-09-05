@@ -14,9 +14,9 @@ Nedan följer två inspelade filmer för att se hur du kan arbeta med den grafis
 
 <ul class="list-style-none">
 <li class="icon-movie-run-16">
-[Film för windows](http://orion.lnu.se/pub/information/coursepress/info/video/github/github_app_mac.mp4)
+[Film för Mac](http://orion.lnu.se/pub/information/coursepress/info/video/github/github_app_mac.mp4)
 </li>
 <li class="icon-movie-run-16">
-[Film för Mac](http://orion.lnu.se/pub/information/coursepress/info/video/github/github_app_win.mp4)
+[Film för Windows](http://orion.lnu.se/pub/information/coursepress/info/video/github/github_app_win.mp4)
 </li>
 <ul>
