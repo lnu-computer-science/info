@@ -12,7 +12,7 @@ Kör du andra operativsystem (Linux, Google Chrome) så är det inte säkert att
 
 Nedan följer två inspelade filmer för att se hur du kan arbeta med den grafiska klienten för respektive operativsystem.
 
-<ul>
+<ul class="list-style-none">
 <li class="icon-movie-run-16">
 [Film för windows](http://orion.lnu.se/pub/information/coursepress/info/video/github/github_app_mac.mp4)
 </li>
