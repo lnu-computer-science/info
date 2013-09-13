@@ -16,7 +16,7 @@ I många av våra kurser kommer vi använda tjänsten [github](http://github.com
 
 När man som ovan börjar jobba med git och github kommer man stöta på vissa ord som kan vara viktiga att känna till. Vanliga ord som vi kommer använda är:
 
-* Repositories - "repos" är oftast ett projekt. Vi kan likna ett repositorie med en mapp/katalog innehållandes filer och undermappar som kan versionshanteras. Du skapar oftast ett repositorie per kurs.
+* Repositorie - "repo" är oftast ett projekt. Vi kan likna ett repositorie med en mapp/katalog innehållandes filer och undermappar som kan versionshanteras. Du skapar oftast ett repositorie per kurs.
 * Commit - Att "commita" sina ändringar talar om att man nu har uppdaterat sina filer och sparar dessa i en ny version, en commit.
 * Forking - Detta innebär att man hittar ett intressant projekt som någon annan lagt ut och som man själv vill bygga vidare på. "Forkar" man då projektet får man en kopia av alla filer som man kan fortsätta jobba vidare med på egen hand.
 * Pull request - Detta innebär att du har forkat ett projekt/repositorie och gjort förändringar i detta som du vill dela med dig av till orginalprojketet. Du kan då föreslå detta för repositorie-ägaren genom att göra en "pull request" som ägaren får godkänna.
@@ -30,7 +30,8 @@ Varför vill vi att du använder github?
 
 I många av våra kurser kommer det vara krav på att använda github för att hantera sina kodfiler. Detta beror på flera saker:
 
-* Först och främst kommer git och github vara något du med säkerhet kommer stöta på i ditt kommande arbetsliv och många arbetsgivare kan se det som en merit att ha erfarenhet av detta.
+* Först och främst kommer git och github vara något du med säkerhet kommer stöta på i ditt kommande arbetsliv.
+* Ditt Github-konto kan fungera som ett  CV där man samlar sin kod och där eventuella arbetsgivare kan se vad man kan och har producerat tidigare.
 * Du kommer enklare kunna hantera dina filer. Inga datorkrasher kommer få dina filer att försvinna, du kan komma åt dina filer från flera olika datorer och enheter.
 * Du kan enkelt dela dina filer med dina lärare. Vid examinering av t.ex. koduppgifter vill läraren titta på din kod och kan då via github enkelt komma åt denna. Vid t.ex. frågor kring eller problem med din kod kan läraren enkelt komma åt den senaste versionen.
 * I vissa kurser kommer ni att arbeta i grupper och github ger en bra möjlighet att sammarbeta kring kodfilerna.
