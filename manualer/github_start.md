@@ -48,13 +48,14 @@ Det första Du bör göra är att [skapa dig ett konto på github](http://www.gi
 
 Fyll i formuläret som ovan fast med ditt eget användarnamn.
 
-![Skapa ett educationkonto på github][github_reg_edu] 
+
 
 
 Uppgradera ditt github-konto till education
 ---------------------------------------------
+![Skapa ett educationkonto på github][github_reg_edu] 
 Nästa steg är att registrera detta nyskapade konto som ett studentkonto. Gå till länken: [http://www.github.com/edu](http://www.github.com/edu)
-Välj **I'm a student** och **sign in here** och följ instruktionerna. Efter denna process bör du få ett e-postmeddelande från github och du har möjlighet att skapa privata så kallade repositorier. Oftast kommer du använda ett repositorie per kurs.
+Välj **Request a discount**, logga in om du inte gjort det och välj sedan **Student**, klicka på nästa och följ instruktionerna. Efter denna process bör du få ett e-postmeddelande från github och du har möjlighet att skapa privata så kallade repositorier. Oftast kommer du använda ett repositorie per kurs.
 
 
 Skapa ett repositorie
