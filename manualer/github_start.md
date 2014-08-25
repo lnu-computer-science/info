@@ -1,18 +1,39 @@
-Denna handledning innehåller en introduktion till git och github samt en förklaring till varför vi vill att du använder github i undervisningen. Observera dock att enskilda kurser kan ha olika krav på hur man ska använda github men det framgår av respektive kurs webbplats.
+Denna handledning innehåller en introduktion till git och github samt en förklaring till varför vi vill att du använder github i undervisningen. 
+Du kommer också i denna handledning få en introduktion till hur du börjar arbeta med Git för att kunna använda det i de kurser du kommer gå.
+Observera dock att enskilda kurser kan ha olika krav på hur man ska använda github men det framgår i så fall av respektive kurs webbplats.
 
-För att hänga med i guiden krävs grundläggande datorkunskap.
+För att hänga med i guiden utgår vi från att du har en grundläggande datorkunskap.
 
-Har du tidigare arbetat med git/github kan du mycket väl ha invanda arbetssätt som du är fri att använda även i våra kurser, men läs igenom guiden nedan så du får en bild av vilka speciella krav vi ställer. Guiden är förenklad för att passa nybörjare.
+Har du tidigare arbetat med git/github kan du mycket väl ha invanda arbetssätt som du är fri att använda även i våra kurser, men läs igenom guiden nedan så du får en bild av vilka speciella krav vi ställer. 
+
 
 Vad är git och github?
 ---------
 
-[git](http://git-scm.com/ "Den officella sidan om git") är ett versionhanteringssytem som är utarbetat främst för utvecklare och hantering av kod. Med ett [versionshanteringssystem](http://sv.wikipedia.org/wiki/Versionshantering) menas att systemet hjälper användaren att hantera filer och spara dem i olika versioner så att man kan spåra förändringar och gå tillbaka i historiken. Det ger också möjligheter för flera utvecklare att kunna samarbeta kring samma filer utan att riskera att man skriver över någon annans arbete. 
+[git](http://git-scm.com/ "Den officella sidan om git") är ett versionhanteringssytem som är utarbetat främst för muukvaruutvecklare och hantering av kod. Med ett [versionshanteringssystem](http://sv.wikipedia.org/wiki/Versionshantering) menas att systemet hjälper användaren att hantera filer och spara dem i olika versioner så att man kan spåra förändringar och gå tillbaka i historiken. Det ger också möjligheter för flera utvecklare att kunna samarbeta kring samma filer utan att riskera att man skriver över någon annans arbete. Du kommer under din utbildning att använda dig mycket av Git men även andra versionhanteringssytem så som t.ex. subversion (svn).
 
-Du kommer under din utbildning att använda dig av git men även andra versionhanteringssytem så som t.ex. subversion (svn).
-Git skapades av [Linus Torvalls](http://sv.wikipedia.org/wiki/Linus_Torvalds "Linus Torvalds wikipedia"), ett namn som säkert många känner till som skaparen till operativsystemet Linux. [Git uppkom](http://git-scm.com/book/en/Getting-Started-A-Short-History-of-Git) helt enkelt för att Linus inte tyckte att det fanns ett bra och fritt versionhanteringssystem som kunde hantera all kod som Linux består av och alla de olika utvecklare som är inblandade i utvecklingen av Linux. 
+Git skapades av [Linus Torvalls](http://sv.wikipedia.org/wiki/Linus_Torvalds "Linus Torvalds wikipedia"), ett namn som säkert många känner till som skaparen till operativsystemet Linux. [Git uppkom](http://git-scm.com/book/en/Getting-Started-A-Short-History-of-Git) helt enkelt för att Linus inte tyckte att det fanns ett bra och fritt versionhanteringssystem som kunde hantera all kod som Linux består av och underlätta för alla de olika utvecklare som är inblandade i utvecklingen av Linux. 
 
-I många av våra kurser kommer vi använda tjänsten [github](http://github.com/ "Githubs hemsida"). Github är en tjänst som ger oss utvecklare möjlighet att, via webben, skapa, hantera och lagra projekt via git. Github ger oss också möjlighet att dela kod med andra, studera andras kod och använda andras kod för att bygga vidare på. Github är alltså en tjänst för "social coding". Man kan också använda github för att dela utvecklingsfiler i privata grupper eller som ensam utvecklare hantera sina filer på ett smidigt sätt.
+I många av våra kurser kommer vi också använda tjänsten [Github](http://github.com/ "Githubs hemsida"). Github är en tjänst som ger oss utvecklare möjlighet att, via webben, skapa, hantera och lagra projekt och dess via Git. Github ger oss också möjlighet att dela kod med andra, studera andras kod och använda andras kod för att bygga vidare på. Github är alltså en tjänst för "social coding". Man kan också använda github för att dela utvecklingsfiler i privata grupper eller som ensam utvecklare hantera sina filer på ett smidigt sätt. Vi skulle kunna kalla det ett slags Facebook, fast för kod. På senare tid har dock allt fler upptäckt möjligheterna med Git och Github och nu för tiden hittar man inte bara mjukvaruprojekt på Github.
+
+
+Varför vill vi att du använder Git och Github?
+---
+
+I många av våra kurser kommer det vara krav på att använda Git och Github för att hantera kod och dokumentation. Detta beror på flera saker:
+
+* Först och främst kommer Git och Github vara något du med säkerhet kommer stöta på i ditt kommande arbetsliv.
+* Ditt Github-konto kommer fungera som ett CV där du samlar din kod och där eventuella arbetsgivare kan se vad du kan och har producerat tidigare. Dett aär något vi märker fler och fler arbetsgivare nämner så att redan från början bygga upp sitt Githubkonto bör vara en viktig punkt i din utveckling.
+* Du kommer enklare kunna hantera dina filer. Inga datorkrasher kommer få dina filer att försvinna, du kan komma åt dina filer från flera olika datorer och enheter.
+* Du kan enkelt dela dina filer med dina lärare. Vid examinering av t.ex. koduppgifter vill läraren titta på din kod och kan då via github enkelt komma åt denna. Vid t.ex. frågor kring eller problem med din kod kan läraren enkelt komma åt den senaste versionen.
+* I vissa kurser kommer ni att arbeta i grupper och github ger en bra möjlighet att sammarbeta kring kodfilerna.
+* Github är ett kraftfullt verktyg för att studera och lära sig av andras kod.
+* Läraren kan följa dina versioner och se hur du ligger till i kursen.
+* Github har också ett system för att skriva kommentarer, ToDo-listor m.m som underlättar vid utvecklandet.
+
+
+
+
 
 När man som ovan börjar jobba med git och github kommer man stöta på vissa ord som kan vara viktiga att känna till. Vanliga ord som vi kommer använda är:
 
@@ -26,18 +47,7 @@ När man som ovan börjar jobba med git och github kommer man stöta på vissa o
 Här är några fler resurser kring git och github:
 [Introduction to Git with Scott Chacon of GitHub](http://www.youtube.com/watch?v=ZDR433b0HJY "Youtubevideo om git")
 
-Varför vill vi att du använder github?
----
 
-I många av våra kurser kommer det vara krav på att använda github för att hantera sina kodfiler. Detta beror på flera saker:
-
-* Först och främst kommer git och github vara något du med säkerhet kommer stöta på i ditt kommande arbetsliv.
-* Ditt Github-konto kan fungera som ett  CV där man samlar sin kod och där eventuella arbetsgivare kan se vad man kan och har producerat tidigare.
-* Du kommer enklare kunna hantera dina filer. Inga datorkrasher kommer få dina filer att försvinna, du kan komma åt dina filer från flera olika datorer och enheter.
-* Du kan enkelt dela dina filer med dina lärare. Vid examinering av t.ex. koduppgifter vill läraren titta på din kod och kan då via github enkelt komma åt denna. Vid t.ex. frågor kring eller problem med din kod kan läraren enkelt komma åt den senaste versionen.
-* I vissa kurser kommer ni att arbeta i grupper och github ger en bra möjlighet att sammarbeta kring kodfilerna.
-* Github är ett kraftfullt verktyg för att studera och lära sig av andras kod.
-* Läraren kan följa dina versioner och se hur du ligger till i kursen.
 
 
 Hur börjar man med github?
