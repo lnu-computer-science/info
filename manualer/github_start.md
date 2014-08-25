@@ -10,7 +10,7 @@ Har du tidigare arbetat med git/github kan du mycket väl ha invanda arbetssätt
 Vad är git och github?
 ---------
 
-[git](http://git-scm.com/ "Den officella sidan om git") är ett versionhanteringssytem som är utarbetat främst för muukvaruutvecklare och hantering av kod. Med ett [versionshanteringssystem](http://sv.wikipedia.org/wiki/Versionshantering) menas att systemet hjälper användaren att hantera filer och spara dem i olika versioner så att man kan spåra förändringar och gå tillbaka i historiken. Det ger också möjligheter för flera utvecklare att kunna samarbeta kring samma filer utan att riskera att man skriver över någon annans arbete. Du kommer under din utbildning att använda dig mycket av Git men även andra versionhanteringssytem så som t.ex. subversion (svn).
+[git](http://git-scm.com/ "Den officella sidan om git") är ett versionhanteringssytem som är utarbetat främst för muukvaruutvecklare och hantering av kod. Med ett [versionshanteringssystem](http://sv.wikipedia.org/wiki/Versionshantering) menas att systemet hjälper användaren att hantera filer och spara dem i olika versioner så att man kan spåra förändringar och gå tillbaka i historiken. Det ger också möjligheter för flera utvecklare att kunna samarbeta kring samma filer utan att riskera att man skriver över någon annans arbete. Du kommer under din utbildning att använda dig mycket av Git men även andra versionhanteringssytem så som t.ex. subversion (svn). [Mer information om versionshantering](http://git-scm.com/book/en/Getting-Started-About-Version-Control).
 
 Git skapades av [Linus Torvalls](http://sv.wikipedia.org/wiki/Linus_Torvalds "Linus Torvalds wikipedia"), ett namn som säkert många känner till som skaparen till operativsystemet Linux. [Git uppkom](http://git-scm.com/book/en/Getting-Started-A-Short-History-of-Git) helt enkelt för att Linus inte tyckte att det fanns ett bra och fritt versionhanteringssystem som kunde hantera all kod som Linux består av och underlätta för alla de olika utvecklare som är inblandade i utvecklingen av Linux. 
 
@@ -32,9 +32,89 @@ I många av våra kurser kommer det vara krav på att använda Git och Github f�
 * Github har också ett system för att skriva kommentarer, ToDo-listor m.m som underlättar vid utvecklandet.
 
 
+Att börja använda Git
+---
+Vi ska börja titta på hur vi arbetar med Git. Denna guide har valt att koncentrera sig på hur man arbetar med Git via en kommandotolk/ett terminalfönster. Det finns grafiska klienter att använda men dessa får du själv upptäcka när du väl lärt dig grunderna i Git-kommandon. Du kommer arbeta med kommandotolken/terminalfönstret mycket under din utbildning så att bli van vid att arbeta via den är också viktigt.
+
+## Installera Git på din dator
+Om du arbetar på en egen dator är det en bra start att börja med att installera Git. Använder du skolans datorer bör det redan vara installerat på dessa. Att installera Git är inte svårare än att installera något annat program. Du laddar ner och installerar en körbar fil. [Mer information hittar du på Git:s officiella sida](http://git-scm.com/book/en/Getting-Started-Installing-Git). Välj sätt att installera på beroende på ditt operativsystem.
+
+## Konfigurera Git
+För att på ett enkelt sätt komma igång kan vi börja med att konfiguera Git genom att tala om vem vi är.
+
+### *Mac*
+Öppna terminalfönstret genom att söka upp det i "Spotlight" (programmet heter Terminal) eller via finder "Go" --> "Utilities" --> "Terminal".
+
+BILD HÄR!
+
+### *Windows*
+Du öppnar ett terminalfönster i Windows genom att du går via startmeny --> "Git" --> "Git bash".
+
+### De första inställningarna
+Börja med att testa att din installation är korreckt genom att skriva:
+*git --version*
+Du bör då få upp en bild liknande denna:
+
+BILD HÄR
+
+Forsätt genom att ange dina uppgifter i konfigurationen för Git. Använd såklart ditt namn och e-postadress (din studentadress)
+*git config --global user.name "John Doe"*
+*git config --global user.email johndoe@example.com*
+
+Kontrollera dina inställningar via:
+*git config --list*
+
+# Att skapa ett repositorie
+Ett centralt begrepp inom Git är repositorie (repository) eller ofta förkortat som repo. Detta kan förklaras som ett versionshanterat projekt. Vi kan likna ett repositorie med en mapp/katalog innehållandes filer och undermappar som kan versionshanteras. Du skapar oftast ett repositorie per kurs eller per applikation.
+
+Ett repositorie kan skapa på olika sätt. Antingen via att skapa ett helt nytt repo på din lokala dator eller genom att ladda ner ett redan påbörjat repo från t.ex. Github,
+
+## Skapa ett nytt lokalt repositorie
+Börja med att använda kommandot cd i terminalen för att bege dig till någon lämplig katalog där du vill skapa ditt repositorie. Väl där skapar du en ny mapp genom att skriva:
+
+mkdir my_application 
+
+Detta skapar en katalog med namnet my_application. För att skapa ett repositorie i denna mapp navigerar du dig in i mappen och där skriver "git init".
+
+SE BILD
+
+Du har nu skapat ett helt eget lokalt repositorie och har förmodligen fått en mapp som heter ".git" (kan vara dold i mac). Den mappen innehåller all information om detta repositorie och de versionsförändringar vi kommer göra. Denna mapp ska du alltså inte bry dig om så mycket utan bara låta Git sköta om.
+
+Du kan nu testa status på ditt repo genom att skriva
+*git status*
+
+Än har vi ju inte lagt till några filer i vår versionshanterade katalog (vårt repo). Så skapa en fil index.html i valfri editor och spara i katalogen du nyss skapade. Kontrollera nu statusen med *git status* och observera nu skillnaden.
+
+BILD HÄR
+
+Git har alltså upptäckt att vi lagt till en ny fil i mappen och talar om att denna inte är versionshanterad. Varje fil i en mapp som är Git-hanterad kan antingen vara "tracked" eller "untracked". För att lägga till filen index.html vi nyss skapade skriver du:
+*git add index.html*
+Ovanstående kommando lägger till just filen index.html. Har man skapat flera filer samtidigt som vill lägga till använder man:
+_git add *_ 
+Vilket också är det man brukar använda i nästan alla fall.
+Kolla nu status på ditt repositorie igen med *git status*
+
+Filen är nu tillagd men den är fortfarande inte versionshanterad. Vi måst egöra en så kallad "commit" för att få detta. En "Commit" gör man när man suttit och jobbat ett tag med någon ting, kanske skrivit en deluppgift, implementerat en funktion i sin applikation eller kanske bara tar en paus och vill "checka in" det man gjort hittils. Man brukar säga att man ska "commit:a" sin kod ofta men inte så att det blir svårt att följa utvecklingen av projektet. En "Commit" ska också innehålla en br akommentar som beskriver för andra vad du gjort sedan sist. Även om du komemr jobba ensam i vissa repositorier så var noga med att skriva bra och förklarande kommentarer till dina commits. För att göra en commit skriver du:
+
+*git commit -m "Jag har precis skapat filen index.html. Den är dock fortfarande tom"*
+
+Du bör såklart byta ut kommentaren innanför citattecknen mot en kommentar som passar i ditt fall, Kontrollera nu ditt repositories status
+
+BILD HÄR
+
+Testa nu att göra en ändring i filen index.html samt skapa en ny fil och lägg i mappen. Kolla status, lägg till den nya filen med *git add* och gör en ny commit.
+
+Du bör nu ha ett lokalt repositorie med två versionshanterade filer och två styckens "commits".
+
+## Skapa ett repositorie på github och klona ner lokalt
 
 
 
+
+
+
+Hur börjar man med github?
+---
 När man som ovan börjar jobba med git och github kommer man stöta på vissa ord som kan vara viktiga att känna till. Vanliga ord som vi kommer använda är:
 
 * Repositorie - "repo" är oftast ett projekt. Vi kan likna ett repositorie med en mapp/katalog innehållandes filer och undermappar som kan versionshanteras. Du skapar oftast ett repositorie per kurs.
@@ -48,10 +128,6 @@ Här är några fler resurser kring git och github:
 [Introduction to Git with Scott Chacon of GitHub](http://www.youtube.com/watch?v=ZDR433b0HJY "Youtubevideo om git")
 
 
-
-
-Hur börjar man med github?
----
 Det första Du bör göra är att [skapa dig ett konto på github](http://www.github.com). Här är det viktigt att du __registrar dig med din studentmejl från LNU__. Detta för att du ska kunna registrera ett education-konto och på så sätt kunna skapa vad man kallar privata repositorier, alltså kodprojekt som ingen annan än du och de du väljer att samarbeta med kan se. Välj gärna ett användarnamn som innehåller ditt användarnamn här på LNU.
 
 ![Skapa ett konto på github][github_reg] 
