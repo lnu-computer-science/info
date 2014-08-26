@@ -107,13 +107,69 @@ Testa nu att göra en ändring i filen index.html samt skapa en ny fil och lägg
 Du bör nu ha ett lokalt repositorie med två versionshanterade filer och två styckens "commits".
 
 ## Skapa ett repositorie på github och klona ner lokalt
+Men om man har ett repositorie på Github och vill utveckla lokalt men sedan skicka upp förändringarna. Hur gör man då?
+
+Börja med att skapa ett repositorie på ditt konto på Github.
+På ditt nya repositories första sida kommer du se en sökväg som avslutas med .git.
+
+BILD HÄR
+
+Kopiera denna address då vi nu ska använda den för att via terminalfönstret klona ner en kopia av repositoriet och få en koppling så vi kan skicka upp våra förändringar.
+
+Gå till terminalfönstret och navigera dig till den mapp där du vill kopiera ner repositoriet och skriv
+*git clone git://github.com/xx222xx/myRepo.git*
+där den sista delen är den address du kopierade. Du har nu sparat ner en exakt kopia av det som låg på github. Alla filerna bör ha hamnat i en mapp som om man tittar på addressen ovan borde heta "myRepo".
+
+Du har nu ett lokalt skapat repositorie och kan jobba vidare precis som tidigare med "add" och "commit". Observera dock att dessa förändringar bara sker lokat än så länge.
+
+
+## Skicka upp förändringar till github
+Som sagt har vi bara gjort våra förändringar lokalt på den dator vi arbetar på för tillfället. Det är ju inte så bra. Kanske är vi flera som jobbar i samma projekt eller så kasnke du nu suttit i skolan och vill gå hem och arbeta vid en annan dator. Naturligtvis måste vi skicka upp förändringarna till github så vi kan komma åt dem från en annan dator.
+För att göra detta skriver du i terminalfönstret:
+*git push*
+
+BILD HÄR
+
+Man kan nu kontrollera att förändringarna finns på github och man kan nu klona ner dessa till den dator man vill jobba vidare på.
+
+
+## Övning
+Nu ska du få testa lite själv. Din uppgift blir nu följande.
+
+1. Logga in på ditt githubkonto och skapa ett nytt repositorie där. Skapa en readme-fil och en ignore-fil i repositoriet.
+2. Skapa en katalog, via terminalfönstret, på lämplig plats i ditt filsystem som heter "projects". 
+3. Klona nu ut repositoriet till din lokala dator till den mapp du nyss skapade.
+4. Skapa en ny fil, index.html, i repositoriet och lägg till den i repositoriet och skicka sedan upp till github. Besök sidan för ditt github-repositorie och kontrollera att filen finns där.
+5. Gör en mindre förändring i index.html samt skapa en ny fil, contacts.html. Se nu till att den nya filen och den nya förändringen hamnar i en ny commit upp på github.
+6. Skapa en ny mapp, "projects_simulate" för att simulera att vi nu satt oss och jobba vid en ny dator. Klona nu ner repositoriet på nytt till denna mapp och kontrollera att det har alla de uppdaterade filerna med sig.
+7. Gör en förändring i någon av filerna och gör en commit på detta. Skicka sedan upp det till github igen. KOntrollera att färändringen kom med.
+8. Gå nu tillbaka till den första mappen mappen "projects". Kontrollera statusen. Du bör där se att den senaste förändringen som finns på github inte finns där ännu. Vi måst epå något sätt ladda ner den innan vi kan fortsätta jobba. Annars kommer vi hamna i osynk och det vill vi inte. Det är därför viktigt att via terminalfönstret ställer oss i mappen och kör kommandot:
+	*git pull*
+	Det bör ladda ner de förändringar som gjorts och vi får samma version som finns på github. Vi kan nu fortsätta jobba med filerna.
+
+Här hittar du en film där vi visar hur man kan lösa uppgiften ovan .
+FILM HÄR
+
+
+##Branching
+Ytterligare ett begrepp vi måste känna till är Branch eller Branching. Det är en finess som är oumbärlig när man börja jobba flera personer inom samma projekt. Med en branch menar man att man skapar en förgrening i aktuellt projekt. Det är vanligt förekommande att man t.ex. skapar en ny branch när man ska införa en ny funktion i en applikation. Man skapar då en branch där man jobbar med koden till denna funktion uatan att påverka själva huvudspåret. Man kan alltså säga att en branch är en tillfällig kopia som används under tiden en ny funktion implementeras för att sedan slås ihop (genom en så kallad "merge") med själva huvudspåret (som alltid kallas master). För att få en tidligare bild av vad branchning är rekommenderas [vidare läsning i git-boken](http://git-scm.com/book/en/Git-Branching-What-a-Branch-Is).
+
+OK, säg då att vi vill jobba med en branch. Kanske är det en funktion eller webbsida som vi ska skapa i ett gemmensamt projekt som vi vill se till att vi har i en egen branch under tiden vi jobbar med den. För att sedan slå ihop med själva huvudspåret när vi anser oss klara med funktionen.
+
+Vi ser till att vi i vårt terminalfönster befinner oss i vår versionshanterade mapp och kör kommandot
+*git checkout -b my-new-branch*
+Där my-new-branch är det namn du ger din branch. Kör nu *git status* så ser du att du nu befinner dig i din skapade brach. Alla add och commit kommer nu endast att påverka denna nya branch. Så under tiden du jobbar med funktionen gör du dina förändringar bara till denna förgrening av koden. När vi sedan känner oss klara med funktionen vi utvecklat vill vi såklart slå ihop våra förändringar med huvudspåret (som egentligen är en brach som kallas "master"). Detta gör vi genom en så kallad megre.
+Detta gör man i två steg. Först måste vi förflytta oss tillbaka till vår master-branch och sedan tala om att vi vill göra en merge från vår egna branch. Kör följande kommandon:
+*git checkout master*
+*git merge my-new-branch*
+Sen bör man naturligtvis köra en *git push* för att skicka upp våra förändringar.
+
+Du kan börja med att följa den [interaktiva guiden som github har](https://try.github.io). Den tar upp fler saker än vad 
+vi lärt oss hittils men det kan ändå vara ett bra läge att köra den nu
 
 
 
-
-
-
-Hur börjar man med github?
+Hur börjar man med Github?
 ---
 När man som ovan börjar jobba med git och github kommer man stöta på vissa ord som kan vara viktiga att känna till. Vanliga ord som vi kommer använda är:
 
@@ -123,9 +179,6 @@ När man som ovan börjar jobba med git och github kommer man stöta på vissa o
 * Pull request - Detta innebär att du har forkat ett projekt/repositorie och gjort förändringar i detta som du vill dela med dig av till orginalprojketet. Du kan då föreslå detta för repositorie-ägaren genom att göra en "pull request" som ägaren får godkänna.
 * Merge - Om ägaren av repositoriet tycker att dina ändringar är bra kan hon/han välja att baka in dessa i orginalkoden d.v.s. göra en "merge", en sammanslagning.
 * Branch/Branching - Du kommer att använda "branching" eller förgreningar i ditt repro för att undvika att ändra i projektets huvudgren. Detta är extra viktigt då man är flera personer som samarbetar i samma repro.
-
-Här är några fler resurser kring git och github:
-[Introduction to Git with Scott Chacon of GitHub](http://www.youtube.com/watch?v=ZDR433b0HJY "Youtubevideo om git")
 
 
 Det första Du bör göra är att [skapa dig ett konto på github](http://www.github.com). Här är det viktigt att du __registrar dig med din studentmejl från LNU__. Detta för att du ska kunna registrera ett education-konto och på så sätt kunna skapa vad man kallar privata repositorier, alltså kodprojekt som ingen annan än du och de du väljer att samarbeta med kan se. Välj gärna ett användarnamn som innehåller ditt användarnamn här på LNU.
@@ -156,21 +209,6 @@ Klicka på knappen "new repository" och fyll i dina uppgifter. Går du en kurs h
 Du kan här välja om du vill skapa ditt repositorie public (alla kan se din kod) eller private. Bara du och de du delar ditt repositorie med kan se dina filer. Beroende på kurs så kan det vara olika krav på om koden får vara publik eller privat. 
 
 
-Dela ditt repositorie *(OBS, kan skilja sig från kurs till kurs)*
-----------------------
-Ska du använda ditt repositorie i en kurs är det troligt att du ska dela det med din lärares kurskonto. Möjligheten till att dela ditt hittar du genom att klicka på
-ikonen med verktyg (settings) till höger på sidan.
-
-![Inställningar i github][github_settings] 
-
-Välj sedan "Collaborators" och skriv in namnet på det kontot/användarnamnet du vill dela ditt repositorie med:
-
-![Collaborators][github_collaborator] 
-
-
-Att börja jobba med ditt repositorie 
--------------------------------------
-Nu bör du vara registrerad på github med ett education-konto och du kan egentligen börja använda github för att hantera dina filer i dina kurser. Detta kan skilja sig lite åt från kurs till kurs med hur du gör bör där framgå av kurshemsidan.
 
 Föreslå förändringar på denna handledning
 ------------------------------------------
