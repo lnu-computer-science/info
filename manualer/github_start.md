@@ -81,7 +81,7 @@ För att på ett enkelt sätt komma igång kan vi börja med att konfiguera Git 
 #### *Windows*
 Har du installerat git från installationsfilen bör du i din startmeny fått ett alternativ "Git". Du öppnar ett terminalfönster för Git i Windows genom att du går via startmeny --> "Git" --> "Git bash".
 
-BILD PÅ GIT BASH HÄR
+![Git Bash][git_bash] 
 
 
 ### De första inställningarna
@@ -89,9 +89,9 @@ Börja med att testa att din installation är korrekt genom att skriva:
 
 `git --version`
 
-Du bör då få upp en bild liknande denna:
+Du bör då få upp en bild liknande denna (skärmdumpen är tagin i windows - kan se annorlunda ut i t.ex. Mac):
 
-BILD HÄR
+![Git Version][git_version] 
 
 Forsätt genom att ange dina uppgifter i konfigurationen för Git. Använd såklart ditt namn och e-postadress (din studentaddress)
 
@@ -103,7 +103,7 @@ Kontrollera dina inställningar via:
 
 `git config --list`
 
-BILD HÄR
+![Git Config][git_config] 
 
 # Att skapa ett repositorie
 Ett centralt begrepp inom Git är repositorie (repository) eller ofta förkortat som repo. Detta kan förklaras som ett versionshanterat projekt. Du skapar oftast ett repositorie per kurs eller per applikation. Ett repositorie kan skapa på olika sätt. Antingen via att skapa ett helt nytt repo på din lokala dator eller genom att ladda ner ett redan påbörjat repo från t.ex. Github.
@@ -116,8 +116,6 @@ Börja med att använda kommandot cd i terminalen för att bege dig till någon 
 Detta skapar en katalog med namnet my-application. För att skapa ett repositorie i denna mapp navigerar du dig in i mappen och där skriver
 
 `git init`
-
-SE BILD
 
 Du har nu skapat ett helt eget lokalt repositorie och har förmodligen fått en mapp som heter ".git" (kan vara dold i mac). Den mappen innehåller all information om detta repositorie och de versionsförändringar vi kommer göra. Denna mapp ska du alltså inte bry dig om så mycket utan bara låta Git sköta om. Du kan nu testa status på ditt repo genom att skriva
 
@@ -141,7 +139,7 @@ Filen är nu tillagd men den är fortfarande inte versionshanterad. Vi måst eg�
 
 Du bör såklart byta ut kommentaren innanför citattecknen mot en kommentar som passar i ditt fall, Kontrollera nu ditt repositories status
 
-BILD HÄR
+`git status`
 
 Testa nu att göra en ändring i filen index.html samt skapa en ny fil och lägg i mappen. Kolla status, lägg till den nya filen med `git add` och gör en ny commit. Du bör nu ha ett lokalt repositorie med två versionshanterade filer och två styckens "commits".
 
@@ -149,9 +147,7 @@ Testa nu att göra en ändring i filen index.html samt skapa en ny fil och lägg
 Men om man har ett repositorie på Github och vill utveckla lokalt och sedan skicka upp förändringarna. Hur gör man då?
 
 Börja med att skapa ett repositorie på ditt konto på Github.
-På ditt nya repositories första sida kommer du se en sökväg som avslutas med .git.
-
-BILD HÄR
+På ditt nya repositories första sida, nere till höger, kommer du se något som heter "HTTP clone URL". Kopiera den sökväg som finns där
 
 Kopiera denna address då vi nu ska använda den för att via terminalfönstret klona ner en kopia av repositoriet och få en koppling så vi kan skicka upp våra förändringar.
 
@@ -162,12 +158,10 @@ Gå till terminalfönstret och navigera dig till den mapp där du vill kopiera n
 där den sista delen är den address du kopierade. Du har nu sparat ner en exakt kopia av det som låg på github. Alla filerna bör ha hamnat i en mapp som om man tittar på addressen ovan borde heta "myRepo". Du har nu ett lokalt skapat repositorie och kan jobba vidare precis som tidigare med "add" och "commit". Observera dock att dessa förändringar bara sker lokalt än så länge.
 
 ## Skicka upp förändringar till github
-Vi ha rnu arbetat på ett tag men som sagt har vi bara gjort våra förändringar lokalt på den dator vi arbetar på för tillfället. Det är ju inte så bra. Kanske är vi flera som jobbar i samma projekt eller så kanske du nu suttit i skolan och vill gå hem och arbeta vvid din dator hemma. Naturligtvis måste vi skicka upp förändringarna till github så vi kan komma åt dem från en annan dator.
+Vi har nu arbetat på ett tag men som sagt har vi bara gjort våra förändringar lokalt på den dator vi arbetar på för tillfället. Det är ju inte så bra. Kanske är vi flera som jobbar i samma projekt eller så kanske du nu suttit i skolan och vill gå hem och arbeta vvid din dator hemma. Naturligtvis måste vi skicka upp förändringarna till github så vi kan komma åt dem från en annan dator.
 För att göra detta skriver du i terminalfönstret:
 
 `git push`
-
-BILD HÄR
 
 Man kan nu kontrollera att förändringarna finns på github och man kan nu klona ner dessa till den dator man vill jobba vidare på.
 
@@ -212,20 +206,14 @@ vi lärt oss hittils men det kan ändå vara ett bra läge att köra den nu
 
 Du bör också skaffa dig förståelse för [taggning](http://git-scm.com/book/en/Git-Basics-Tagging) och [hur man går tillbaka i historiken av sina commits](http://git-scm.com/book/en/Git-Basics-Undoing-Things).
 
-Jag vill också rekommendera att man skriver ut följande lilla beskrivning av ett dagligt arbetsflöde när man jobbar med Git
-
-samt en så kallad Cheat Sheet som tar upp de vanligaste Git-kommandona
-
-
-
+Jag vill också rekommendera att man skriver ut [följande lilla beskrivning av ett dagligt arbetsflöde](https://www.sonassi.com/wp-content/uploads/2012/07/simple_git_daily_workflow.pdf) när man jobbar med Git
+samt en så kallad [Cheat Sheet](http://www.git-tower.com/blog/git-cheat-sheet/) som tar upp de vanligaste Git-kommandona
 
 
 Föreslå förändringar på denna handledning
 ------------------------------------------
 Detta dokument ligger på [github](https://github.com/LNU-CoursePress/info/blob/master/manualer/github_start.md) och hittar du felaktigheter eller vill föreslå förändringar går det bra att göra det där.
 
-Referenser
------------
 
 
 
@@ -235,3 +223,6 @@ Referenser
 [github_repo_new]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_repo_new.png "New repository"
 [github_settings]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_settings.png "Settings"
 [github_collaborator]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_collaborator.png "github_collaborator"
+[git_bash]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/git_bash.png "git_bash"
+[git_version]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/git_version.png "git_version"
+[git_config]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/git_config.png "git_config"
