@@ -31,12 +31,12 @@ I många av våra kurser kommer det vara krav på att använda Git och Github f�
 
 När man börjar jobba med Git och Github kommer man stöta på vissa begrepp som är viktiga att känna till. Vanliga ord som vi kommer använda är:
 
-* Repositorie/Repository - Kallar ofta förkortat för "repo" och är oftast ett projekt. Vi kan likna ett repositorie med en mapp/katalog innehållandes filer och undermappar som kan versionshanteras. Du skapar oftast ett repositorie per kurs eller ett repositorie per applikation.
-* Commit - Att "commit:a" sina ändringar talar om att man nu har uppdaterat sina filer och sparar dessa i en ny version, en commit.
-* Forking - Detta innebär att man hittar ett intressant projekt som någon annan lagt ut och som man själv vill bygga vidare på. "Forkar" man då projektet får man en kopia av alla filer som man kan fortsätta jobba vidare med på egen hand och kanske i slutändan föreslå dessa förändringar för orginalskaparen.
-* Pull request - Detta innebär att du har forkat ett projekt/repositorie och gjort förändringar i detta som du vill dela med dig av till orginalprojketet. Du kan då föreslå detta för repositorie-ägaren genom att göra en "pull request" som ägaren får godkänna.
-* Merge - Om ägaren av repositoriet tycker att dina ändringar är bra kan hon/han välja att baka in dessa i orginalkoden d.v.s. göra en "merge", en sammanslagning.
-* Branch/Branching - Du kommer att använda "branching" eller förgreningar i ditt repro för att undvika att ändra i projektets huvudgren. Detta är extra viktigt då man är flera personer som samarbetar i samma repro.
+* **Repositorie/Repository** - Kallar ofta förkortat för "repo" och är oftast ett projekt. Vi kan likna ett repositorie med en mapp/katalog innehållandes filer och undermappar som kan versionshanteras. Du skapar oftast ett repositorie per kurs eller ett repositorie per applikation.
+* **Commit** - Att "commit:a" sina ändringar talar om att man nu har uppdaterat sina filer och sparar dessa i en ny version, en commit.
+* **Forking** - Detta innebär att man hittar ett intressant projekt som någon annan lagt ut och som man själv vill bygga vidare på. "Forkar" man då projektet får man en kopia av alla filer som man kan fortsätta jobba vidare med på egen hand och kanske i slutändan föreslå dessa förändringar för orginalskaparen.
+* **Pull request** - Detta innebär att du har forkat ett projekt/repositorie och gjort förändringar i detta som du vill dela med dig av till orginalprojketet. Du kan då föreslå detta för repositorie-ägaren genom att göra en "pull request" som ägaren får godkänna.
+* **Merge** - Om ägaren av repositoriet tycker att dina ändringar är bra kan hon/han välja att baka in dessa i orginalkoden d.v.s. göra en "merge", en sammanslagning.
+* **Branch/Branching** - Du kommer att använda "branching" eller förgreningar i ditt repro för att undvika att ändra i projektets huvudgren. Detta är extra viktigt då man är flera personer som samarbetar i samma repro.
 
 Vi kommer återkomma till dessa begrepp längre ner i texten.
 
@@ -49,9 +49,10 @@ Fyll i formuläret som ovan fast med ditt eget användarnamn.
 
 
 ###Uppgradera ditt github-konto till education
-![Skapa ett educationkonto på github][github_reg_edu] 
+
 Nästa steg är att registrera detta nyskapade konto som ett studentkonto. Gå till länken: [http://www.github.com/edu](http://www.github.com/edu)
 Välj **Request a discount**, logga in om du inte gjort det och välj sedan **Student**, klicka på nästa och följ instruktionerna. Efter denna process bör du få ett e-postmeddelande från Github och du har möjlighet att skapa upp till fem privata repositorier. Oftast kommer du använda ett repositorie per kurs.
+![Skapa ett educationkonto på github][github_reg_edu] 
 
 
 ###Skapa ett repositorie
@@ -105,10 +106,10 @@ Kontrollera dina inställningar via:
 
 ![Git Config][git_config] 
 
-# Att skapa ett repositorie
+## Att skapa ett repositorie
 Ett centralt begrepp inom Git är repositorie (repository) eller ofta förkortat som repo. Detta kan förklaras som ett versionshanterat projekt. Du skapar oftast ett repositorie per kurs eller per applikation. Ett repositorie kan skapa på olika sätt. Antingen via att skapa ett helt nytt repo på din lokala dator eller genom att ladda ner ett redan påbörjat repo från t.ex. Github.
 
-## Skapa ett nytt lokalt repositorie
+### Skapa ett nytt lokalt repositorie
 Börja med att använda kommandot cd i terminalen för att bege dig till någon lämplig katalog där du vill skapa ditt repositorie. Väl där skapar du en ny mapp genom att skriva:
 
 `mkdir my-application`
@@ -143,7 +144,7 @@ Du bör såklart byta ut kommentaren innanför citattecknen mot en kommentar som
 
 Testa nu att göra en ändring i filen index.html samt skapa en ny fil och lägg i mappen. Kolla status, lägg till den nya filen med `git add` och gör en ny commit. Du bör nu ha ett lokalt repositorie med två versionshanterade filer och två styckens "commits".
 
-## Skapa ett repositorie på github och klona ner lokalt
+### Skapa ett repositorie på github och klona ner lokalt
 Men om man har ett repositorie på Github och vill utveckla lokalt och sedan skicka upp förändringarna. Hur gör man då?
 
 Börja med att skapa ett repositorie på ditt konto på Github.
@@ -213,8 +214,6 @@ samt en så kallad [Cheat Sheet](http://www.git-tower.com/blog/git-cheat-sheet/)
 Föreslå förändringar på denna handledning
 ------------------------------------------
 Detta dokument ligger på [github](https://github.com/LNU-CoursePress/info/blob/master/manualer/github_start.md) och hittar du felaktigheter eller vill föreslå förändringar går det bra att göra det där.
-
-
 
 
 [github_reg]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_register.png "Github registration"
