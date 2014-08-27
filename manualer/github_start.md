@@ -121,7 +121,7 @@ Du har nu skapat ett helt eget lokalt repositorie och har förmodligen fått en 
 
 `git status`
 
-Vi har ännu inte lagt till några filer i vår versionshanterade katalog (vårt repo). Så skapa en fil index.html i valfri editor och spara i katalogen du nyss skapade. Kontrollera nu statusen igen med `git status` och observera nu skillnaden.
+Vi har ännu inte lagt till några filer i vår versionshanterade katalog (vårt repo). Så skapa en fil index.html och spara i katalogen du nyss skapade. Kontrollera nu statusen igen med `git status` och observera nu skillnaden.
 
 Git har alltså upptäckt att vi lagt till en ny fil i mappen och talar om att denna inte är versionshanterad. Varje fil i en mapp som är Git-hanterad kan antingen vara "tracked" eller "untracked". För att lägga till filen index.html vi nyss skapade skriver du:
 
@@ -129,11 +129,11 @@ Git har alltså upptäckt att vi lagt till en ny fil i mappen och talar om att d
 
 Ovanstående kommando lägger till just filen index.html. Har man skapat flera filer samtidigt som vill lägga till använder man:
 
-`git add *`
+`git add .`
 
 Vilket också är det vanligaste fallet. Kolla nu status på ditt repositorie igen med `git status`.
 
-Filen är nu tillagd men den är fortfarande inte versionshanterad. Vi måst egöra en så kallad "commit" för att få detta. En "Commit" gör man när man suttit och jobbat ett tag med någon ting, kanske skrivit en deluppgift, implementerat en funktion i sin applikation eller kanske bara tar en paus och vill "checka in" det man gjort hittils. Man brukar säga att man ska "commit:a" sin kod ofta men inte så att det blir svårt att följa utvecklingen av projektet. En "Commit" ska också innehålla en bra kommentar som beskriver för andra vad du gjort sedan sist. Även om du kommer jobba ensam i vissa repositorier så var noga med att skriva bra och förklarande kommentarer till dina commits. För att göra en commit skriver du:
+Filen är nu tillagd i vad man kallar "staging area" men den är fortfarande inte helt versionshanterad. Vi måste också göra en så kallad "commit" för att få detta. En "Commit" gör man när man suttit och jobbat ett tag med någon ting, kanske skrivit en deluppgift, implementerat en funktion i sin applikation eller kanske bara tar en paus och vill "checka in" det man gjort hittils. Man brukar säga att man ska "commit:a" sin kod ofta men inte så att det blir svårt att följa utvecklingen av projektet. En "Commit" ska också innehålla en bra kommentar som beskriver för andra vad du gjort sedan sist. Även om du kommer jobba ensam i vissa repositorier så var noga med att skriva bra och förklarande kommentarer till dina commits. För att göra en commit skriver du:
 
 `git commit -m "Jag har precis skapat filen index.html. Den är dock fortfarande tom"`
 
@@ -176,13 +176,13 @@ Nu ska du få testa lite själv. Din uppgift blir nu följande.
 5. Gör en mindre förändring i index.html samt skapa en ny fil, contacts.html. Se nu till att den nya filen och den nya förändringen hamnar i en ny commit upp på github.
 6. Skapa en ny mapp, "projects_simulate" för att simulera att vi nu satt oss och jobba vid en ny dator. Klona nu ner repositoriet på nytt till denna mapp och kontrollera att det har alla de uppdaterade filerna med sig.
 7. Gör en förändring i någon av filerna och gör en commit på detta. Skicka sedan upp det till github igen. Kontrollera att förändringen kom med.
-8. Gå nu tillbaka till den första mappen mappen "projects". Kontrollera statusen. Du bör där se att den senaste förändringen som finns på github inte finns där ännu. Vi måste på något sätt ladda ner den innan vi kan fortsätta jobba. Annars kommer vi hamna i osynk och det vill vi inte. Det är därför viktigt att via terminalfönstret ställer oss i mappen och kör kommandot:
+8. Gå nu tillbaka till den första mappen "projects". Kontrollera statusen. Du bör där se att den senaste förändringen som finns på github inte finns där ännu. Vi måste på något sätt ladda ner den innan vi kan fortsätta jobba. Annars kommer vi hamna i osynk och det vill vi inte. Det är därför viktigt att via terminalfönstret ställer oss i mappen och kör kommandot:
 	*git pull*
 	Det bör ladda ner de förändringar som gjorts och vi får samma version som finns på github. Vi kan nu fortsätta jobba med filerna.
 
-Här hittar du en film där vi visar hur man kan lösa uppgiften ovan. 
-FILM HÄR
-
+Här hittar du två filmer där vi visar hur man kan lösa uppgiften ovan. 
+[Film inspelad i Windows för punkt 1-5](http://orion.lnu.se/pub/information/coursepress/info/video/git/git_win.mp4)
+[Film inspelad i Mac för punkt 6-8](http://orion.lnu.se/pub/information/coursepress/info/video/git/git_mac.mp4)
 
 ##Branching
 Ytterligare ett begrepp vi måste känna till är Branch eller Branching. Det är en finess som är oumbärlig när man börja jobba flera personer inom samma projekt. Med en branch menar man att man skapar en förgrening i aktuellt projekt. Det är vanligt förekommande att man t.ex. skapar en ny branch när man ska införa en ny funktion i en applikation. Man skapar då en branch där man jobbar med koden till denna funktion uatan att påverka själva huvudspåret. Man kan alltså säga att en branch är en tillfällig kopia som används under tiden en ny funktion implementeras för att sedan slås ihop (genom en så kallad "merge") med själva huvudspåret (som alltid kallas master). För att få en tidligare bild av vad branchning är rekommenderas [vidare läsning i git-boken](http://git-scm.com/book/en/Git-Branching-What-a-Branch-Is).
@@ -207,7 +207,7 @@ vi lärt oss hittils men det kan ändå vara ett bra läge att köra den nu
 Du bör också skaffa dig förståelse för [taggning](http://git-scm.com/book/en/Git-Basics-Tagging) och [hur man går tillbaka i historiken av sina commits](http://git-scm.com/book/en/Git-Basics-Undoing-Things).
 
 Jag vill också rekommendera att man skriver ut [följande lilla beskrivning av ett dagligt arbetsflöde](https://www.sonassi.com/wp-content/uploads/2012/07/simple_git_daily_workflow.pdf) när man jobbar med Git
-samt en så kallad [Cheat Sheet](http://www.git-tower.com/blog/git-cheat-sheet/) som tar upp de vanligaste Git-kommandona
+samt en så kallad [Cheat Sheet](http://www.git-tower.com/blog/git-cheat-sheet/) som tar upp de vanligaste Git-kommandona samt även [en enklare referens](http://gitref.org/) till dessa kommandon
 
 
 Föreslå förändringar på denna handledning
