@@ -52,7 +52,6 @@ Fyll i formuläret som ovan fast med ditt eget användarnamn.
 
 Nästa steg är att registrera detta nyskapade konto som ett studentkonto. Gå till länken: [http://www.github.com/edu](http://www.github.com/edu)
 Välj **Request a discount**, logga in om du inte gjort det och välj sedan **Student**, klicka på nästa och följ instruktionerna. Efter denna process bör du få ett e-postmeddelande från Github och du har möjlighet att skapa upp till fem privata repositorier. Oftast kommer du använda ett repositorie per kurs.
-![Skapa ett educationkonto på github][github_reg_edu] 
 
 
 ###Skapa ett repositorie
@@ -171,7 +170,7 @@ Man kan nu kontrollera att förändringarna finns på github och man kan nu klon
 Nu ska du få testa lite själv. Din uppgift blir nu följande.
 
 1. Logga in på ditt Githubkonto och skapa ett nytt repositorie där. Skapa en readme-fil och en ignore-fil i repositoriet. [Läs mer om ignore-filer](http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository#Ignoring-Files).
-2. Skapa en katalog, via terminalfönstret, på lämplig plats i ditt filsystem som heter "projects". 
+2. Skapa en katalog med namnet "projects", via terminalfönstret, på lämplig plats i ditt filsystem. 
 3. Klona nu ut repositoriet till din lokala dator till den mapp du nyss skapade.
 4. Skapa en ny fil, index.html, i repositoriet och lägg till den i repositoriet och skicka sedan upp till github. Besök sidan för ditt github-repositorie och kontrollera att filen finns där.
 5. Gör en mindre förändring i index.html samt skapa en ny fil, contacts.html. Se nu till att den nya filen och den nya förändringen hamnar i en ny commit upp på github.
