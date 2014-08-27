@@ -172,7 +172,7 @@ Nu ska du få testa lite själv. Din uppgift blir nu följande.
 1. Logga in på ditt Githubkonto och skapa ett nytt repositorie där. Skapa en readme-fil och en ignore-fil i repositoriet. [Läs mer om ignore-filer](http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository#Ignoring-Files).
 2. Skapa en katalog med namnet "projects", via terminalfönstret, på lämplig plats i ditt filsystem. 
 3. Klona nu ut repositoriet till din lokala dator till den mapp du nyss skapade.
-4. Skapa en ny fil, index.html, i repositoriet och lägg till den i repositoriet och skicka sedan upp till github. Besök sidan för ditt github-repositorie och kontrollera att filen finns där.
+4. Skapa en ny fil, index.html, och lägg till den i repositoriet och skicka sedan upp till github. Besök sidan för ditt github-repositorie och kontrollera att filen finns där.
 5. Gör en mindre förändring i index.html samt skapa en ny fil, contacts.html. Se nu till att den nya filen och den nya förändringen hamnar i en ny commit upp på github.
 6. Skapa en ny mapp, "projects_simulate" för att simulera att vi nu satt oss och jobba vid en ny dator. Klona nu ner repositoriet på nytt till denna mapp och kontrollera att det har alla de uppdaterade filerna med sig.
 7. Gör en förändring i någon av filerna och gör en commit på detta. Skicka sedan upp det till github igen. Kontrollera att förändringen kom med.
