@@ -1,35 +1,35 @@
-Denna handledning innehåller en kort introduktion till Git och Github samt en förklaring till varför vi vill att du använder dessa tjänster i våra kurser. Du kommer också i denna handledning få en introduktion till hur du börjar arbeta med Git. Observera dock att enskilda kurser kan ha olika krav på hur man ska använda Git och Github men det framgår i så fall av respektive kurs webbplats. Denna guide är inte en komplett handledning till Git utan kan ses som en startpunkt för att komma igång. Vi rekommenderar även den kostnadsfria boken [Pro Git](http://git-scm.com/book) som är fullmatad med nyttig information kring Git för djupare förståelse. 
+Denna handledning innehåller en kort introduktion till Git och GitHub samt en förklaring till varför vi vill att du använder dessa tjänster i våra kurser. Du kommer också i denna handledning få en introduktion till hur du börjar arbeta med Git. Observera dock att enskilda kurser kan ha olika krav på hur man ska använda Git och GitHub men det framgår i så fall av respektive kurs webbplats. Denna guide är inte en komplett handledning till Git utan kan ses som en startpunkt för att komma igång. Vi rekommenderar även den kostnadsfria boken [Pro Git](http://git-scm.com/book) som är fullmatad med nyttig information kring Git för djupare förståelse. 
 
 För att hänga med i guiden utgår vi från att du har en grundläggande datorkunskap.
 
-Har du tidigare arbetat med Git/Github kan du mycket väl ha invanda arbetssätt som du är fri att använda även i våra kurser, men läs igenom guiden nedan och eventuella krav respektive kurs har.
+Har du tidigare arbetat med Git/GitHub kan du mycket väl ha invanda arbetssätt som du är fri att använda även i våra kurser, men läs igenom guiden nedan och eventuella krav respektive kurs har.
 
-##Vad är Git och Github?
+##Vad är Git och GitHub?
 
 [Git](http://git-scm.com/ "Den officella sidan om git") är ett versionhanteringssytem som är utarbetat främst för mjukvaruutvecklare och hantering av kod, speciellt i större projekt med flera utvecklare som jobbar mot samma kod. Med ett [versionshanteringssystem](http://sv.wikipedia.org/wiki/Versionshantering) menas att systemet hjälper användarna att hantera filer och spara dem i olika versioner så att man kan spåra förändringar och t.ex. gå tillbaka i historiken. Det ger också möjligheter för flera utvecklare att dela och kunna samarbeta kring gemensamma filer utan att riskera att man skriver över någon annans arbete. Du kommer under din utbildning att använda dig mycket av Git men även stöta på andra versionhanteringssytem så som t.ex. Subversion (svn). [Mer information om versionshantering](http://git-scm.com/book/en/Getting-Started-About-Version-Control).
 
 Git skapades av [Linus Torvalls](http://sv.wikipedia.org/wiki/Linus_Torvalds "Linus Torvalds wikipedia"), ett namn som säkert många känner till som skaparen till operativsystemet Linux. [Git uppkom](http://git-scm.com/book/en/Getting-Started-A-Short-History-of-Git) helt enkelt för att Linus inte tyckte att det fanns ett bra och fritt versionhanteringssystem som kunde hantera all kod som Linux består av och underlätta för alla de olika utvecklare som är inblandade i utvecklingen av operativsystemet. 
 
-I många av våra kurser kommer vi också använda tjänsten [Github](http://github.com/ "Githubs hemsida"). Github är en tjänst som ger oss utvecklare möjlighet att, via webben, skapa, hantera och lagra projekt och dess data via Git. Github ger oss också möjlighet att dela kod med andra, studera andras kod och använda andras kod för att bygga vidare på. Github är alltså en tjänst för "social coding". Man kan också använda github för att dela utvecklingsfiler i privata grupper eller som ensam utvecklare hantera sina filer på ett smidigt sätt. Vi skulle kunna kalla det ett slags Facebook, fast för kod. På senare tid har dock allt fler upptäckt möjligheterna med Git och Github och nu för tiden hittar man inte bara mjukvaruprojekt på Github utan används även av författare, lärare och en mängd andra branscher. Ta t.ex. en titt på [Government Github](https://government.github.com/).
+I många av våra kurser kommer vi också använda tjänsten [GitHub](http://GitHub.com/ "GitHubs hemsida"). GitHub är en tjänst som ger oss utvecklare möjlighet att, via webben, skapa, hantera och lagra projekt och dess data via Git. GitHub ger oss också möjlighet att dela kod med andra, studera andras kod och använda andras kod för att bygga vidare på. GitHub är alltså en tjänst för "social coding". Man kan också använda GitHub för att dela utvecklingsfiler i privata grupper eller som ensam utvecklare hantera sina filer på ett smidigt sätt. Vi skulle kunna kalla det ett slags Facebook, fast för kod. På senare tid har dock allt fler upptäckt möjligheterna med Git och GitHub och nu för tiden hittar man inte bara mjukvaruprojekt på GitHub utan används även av författare, lärare och en mängd andra branscher. Ta t.ex. en titt på [Government GitHub](https://government.GitHub.com/).
 
 
-##Varför vill vi att du använder Git och Github?
+##Varför vill vi att du använder Git och GitHub?
 
-I många av våra kurser kommer det vara krav på att använda Git och Github för att hantera kod och dokumentation. Detta beror på flera saker:
+I många av våra kurser kommer det vara krav på att använda Git och GitHub för att hantera kod och dokumentation. Detta beror på flera saker:
 
-* Först och främst kommer Git och Github vara något du med säkerhet kommer stöta på i ditt kommande arbetsliv.
-* Ditt Github-konto kommer fungera som ett CV där du samlar dina projekt och där eventuella arbetsgivare kan se vad du kan och har producerat tidigare. Detta är något vi märker fler och fler arbetsgivare tycker är viktigt så att redan från början bygga upp sitt Githubkonto bör vara en viktig punkt i din utveckling.
-* Du kommer enklare kunna hantera dina filer. Inga datorkrasher kommer få dina filer att försvinna (om du är noga med att synka dina filer med Github). Du kan också komma åt dina filer från flera olika datorer och enheter.
-* Du kan enkelt dela dina filer med dina lärare. Vid examinering av t.ex. koduppgifter vill läraren titta på din kod och kan då via Github enkelt komma åt denna. Vid t.ex. frågor kring eller problem med din kod kan läraren enkelt komma åt den senaste versionen.
-* I vissa kurser kommer ni att arbeta i grupper och Github ger en bra möjlighet att sammarbeta i mjukvaruprojekt.
-* Github är ett kraftfullt verktyg för att studera och lära sig av andras kod.
+* Först och främst kommer Git och GitHub vara något du med säkerhet kommer stöta på i ditt kommande arbetsliv.
+* Ditt GitHub-konto kommer fungera som ett CV där du samlar dina projekt och där eventuella arbetsgivare kan se vad du kan och har producerat tidigare. Detta är något vi märker fler och fler arbetsgivare tycker är viktigt så att redan från början bygga upp sitt GitHubkonto bör vara en viktig punkt i din utveckling.
+* Du kommer enklare kunna hantera dina filer. Inga datorkrasher kommer få dina filer att försvinna (om du är noga med att synka dina filer med GitHub). Du kan också komma åt dina filer från flera olika datorer och enheter.
+* Du kan enkelt dela dina filer med dina lärare. Vid examinering av t.ex. koduppgifter vill läraren titta på din kod och kan då via GitHub enkelt komma åt denna. Vid t.ex. frågor kring eller problem med din kod kan läraren enkelt komma åt den senaste versionen.
+* I vissa kurser kommer ni att arbeta i grupper och GitHub ger en bra möjlighet att sammarbeta i mjukvaruprojekt.
+* GitHub är ett kraftfullt verktyg för att studera och lära sig av andras kod.
 * Läraren kan följa dina versioner och se hur du ligger till i kursen.
-* Github har också ett system för att skriva kommentarer, ToDo-listor m.m som underlättar vid arbetsgången.
+* GitHub har också ett system för att skriva kommentarer, ToDo-listor m.m som underlättar vid arbetsgången.
 
 
-##Att börja med Github
+##Att börja med GitHub
 
-När man börjar jobba med Git och Github kommer man stöta på vissa begrepp som är viktiga att känna till. Vanliga ord som vi kommer använda är:
+När man börjar jobba med Git och GitHub kommer man stöta på vissa begrepp som är viktiga att känna till. Vanliga ord som vi kommer använda är:
 
 * **Repositorie/Repository** - Kallar ofta förkortat för "repo" och är oftast ett projekt. Vi kan likna ett repositorie med en mapp/katalog innehållandes filer och undermappar som kan versionshanteras. Du skapar oftast ett repositorie per kurs eller ett repositorie per applikation.
 * **Commit** - Att "commit:a" sina ändringar talar om att man nu har uppdaterat sina filer och sparar dessa i en ny version, en commit.
@@ -40,28 +40,28 @@ När man börjar jobba med Git och Github kommer man stöta på vissa begrepp so
 
 Vi kommer återkomma till vissa av dessa begrepp längre ner i texten.
 
-###Skapa ditt studentkonto på Github
-Det första Du bör göra är att [skapa dig ett konto på github](http://www.github.com). Här är det viktigt att du __registrar dig med din studentmejl från LNU__. Detta för att du ska kunna registrera ett education-konto och på så sätt kunna skapa vad man kallar privata repositorier, alltså kodprojekt som ingen annan än du och de du väljer att samarbeta med kan se. Välj ett användarnamn som är eller innehåller ditt användarnamn här på LNU.
+###Skapa ditt studentkonto på GitHub
+Det första Du bör göra är att [skapa dig ett konto på GitHub](http://www.GitHub.com). Här är det viktigt att du __registrar dig med din studentmejl från LNU__. Detta för att du ska kunna registrera ett education-konto och på så sätt kunna skapa vad man kallar privata repositorier, alltså kodprojekt som ingen annan än du och de du väljer att samarbeta med kan se. Välj ett användarnamn som är eller innehåller ditt användarnamn här på LNU.
 
-![Skapa ett konto på github][github_reg] 
+![Skapa ett konto på GitHub][GitHub_reg] 
 
 Fyll i formuläret som ovan fast med ditt eget användarnamn.
 
 
-###Uppgradera ditt github-konto till education
+###Uppgradera ditt GitHub-konto till education
 
-Nästa steg är att registrera detta nyskapade konto som ett studentkonto. Gå till länken: [http://www.github.com/edu](http://www.github.com/edu)
-Välj **Request a discount**, logga in om du inte gjort det och välj sedan **Student**, klicka på nästa och följ instruktionerna. Efter denna process bör du få ett e-postmeddelande från Github och du har möjlighet att skapa upp till fem privata repositorier. 
+Nästa steg är att registrera detta nyskapade konto som ett studentkonto. Gå till länken: [http://www.GitHub.com/edu](http://www.GitHub.com/edu)
+Välj **Request a discount**, logga in om du inte gjort det och välj sedan **Student**, klicka på nästa och följ instruktionerna. Efter denna process bör du få ett e-postmeddelande från GitHub och du har möjlighet att skapa upp till fem privata repositorier. 
 
 
 ###Skapa ett repositorie
-Nu är det dags att skapa ditt första repositorie. Det gör du från din startsida på github när du loggat in.
+Nu är det dags att skapa ditt första repositorie. Det gör du från din startsida på GitHub när du loggat in.
 
-<img src="https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_startpage.png" width="80%" />
+<img src="https://raw.GitHub.com/LNU-CoursePress/info/master/manualer/images/github_startpage.png" width="80%" />
 
 Klicka på knappen "New repository" och fyll i dina uppgifter. Går du en kurs har du säkert fått information om vad du ska döpa detta repositorie till. Var noga med detta!
 
-![Githubs - skapa ett nytt repositorie][github_repo_new] 
+![GitHubs - skapa ett nytt repositorie][GitHub_repo_new] 
 
 Du kan här välja om du vill skapa ditt repositorie public (alla kan se din kod) eller private. Bara du och de du delar ditt repositorie med kan se dina filer. 
 
@@ -105,7 +105,7 @@ Kontrollera dina inställningar via:
 ![Git Config][git_config] 
 
 ## Att skapa ett repositorie
-Ett centralt begrepp inom Git är repositorie (repository) eller ofta förkortat som "repo". Detta kan förklaras som ett versionshanterat projekt. Du skapar oftast ett repositorie per kurs eller per applikation. Ett repositorie kan skapa på olika sätt. Antingen via att skapa ett helt nytt repo på din lokala dator eller genom att ladda ner ett redan påbörjat repo från t.ex. Github.
+Ett centralt begrepp inom Git är repositorie (repository) eller ofta förkortat som "repo". Detta kan förklaras som ett versionshanterat projekt. Du skapar oftast ett repositorie per kurs eller per applikation. Ett repositorie kan skapa på olika sätt. Antingen via att skapa ett helt nytt repo på din lokala dator eller genom att ladda ner ett redan påbörjat repo från t.ex. GitHub.
 
 ### Skapa ett nytt lokalt repositorie
 Börja med att använda kommandot cd i terminalen för att bege dig till någon lämplig katalog där du vill skapa ditt repositorie. Har du ingen erfarenhet av dessa typer av kommandon (UNIX-kommandon) kan vi rekommendera [Ubuntu-manualens korta introduktion till de vanligaste](http://help.ubuntu-se.org/10.04/basic-commands/sv/files-directories-commands.html). Väl i hemkatalogen skapar du en ny mapp genom att skriva:
@@ -146,40 +146,40 @@ Testa nu att göra en ändring i filen index.html samt skapa en ny fil och lägg
 
 och gör en ny commit. Du bör nu ha ett lokalt repositorie med två versionshanterade filer och två stycken "commits".
 
-### Skapa ett repositorie på Github och klona ner lokalt
-Men om man har ett repositorie på Github och vill utveckla lokalt på sin dator och sedan skicka upp förändringarna. Hur gör man då?
+### Skapa ett repositorie på GitHub och klona ner lokalt
+Men om man har ett repositorie på GitHub och vill utveckla lokalt på sin dator och sedan skicka upp förändringarna. Hur gör man då?
 
-Börja med att skapa ett repositorie på ditt konto på Github.
+Börja med att skapa ett repositorie på ditt konto på GitHub.
 På ditt nya repositories första sida, nere till höger, kommer du se något som heter "HTTPS clone URL". Kopiera den sökväg som finns där. Den ska vi nu använda via terminalfönstret klona ner en kopia av repositoriet och få en koppling så vi kan skicka upp våra förändringar.
 
 Gå till terminalfönstret och navigera dig till den mapp där du vill kopiera ner repositoriet och skriv:
 
-`git clone https://github.com/xx222xx/myRepo.git`
+`git clone https://GitHub.com/xx222xx/myRepo.git`
 
-där den sista delen är den address du kopierade. Du har nu sparat ner en exakt kopia av det som låg på github. Alla filerna bör ha hamnat i en mapp som om man tittar på addressen ovan borde heta "myRepo". Du har nu ett lokalt skapat repositorie och kan jobba vidare med "add" och "commit" under arbetets gång. Observera dock att dessa förändringar bara sker lokalt än så länge.
+där den sista delen är den address du kopierade. Du har nu sparat ner en exakt kopia av det som låg på GitHub. Alla filerna bör ha hamnat i en mapp som om man tittar på addressen ovan borde heta "myRepo". Du har nu ett lokalt skapat repositorie och kan jobba vidare med "add" och "commit" under arbetets gång. Observera dock att dessa förändringar bara sker lokalt än så länge.
 
-## Skicka upp förändringar till github
-Vi har nu arbetat på ett tag men som sagt har vi bara gjort våra förändringar lokalt på den dator vi arbetar på för tillfället. Vi vill ju gärna spara dem centralt på Githubs server så vi kan komma åt dem från vilken dator som helst eller kanske är vi flera som jobbar i samma projekt. Kanske ör det så att du nu suttit i skolan och jobbat och vill nu gå hem och arbeta vidare på din dator hemma. Naturligtvis måste vi skicka upp förändringarna till Github så vi kan komma åt dem från en annan dator.
+## Skicka upp förändringar till GitHub
+Vi har nu arbetat på ett tag men som sagt har vi bara gjort våra förändringar lokalt på den dator vi arbetar på för tillfället. Vi vill ju gärna spara dem centralt på GitHubs server så vi kan komma åt dem från vilken dator som helst eller kanske är vi flera som jobbar i samma projekt. Kanske ör det så att du nu suttit i skolan och jobbat och vill nu gå hem och arbeta vidare på din dator hemma. Naturligtvis måste vi skicka upp förändringarna till GitHub så vi kan komma åt dem från en annan dator.
 För att göra detta skriver du i terminalfönstret:
 
 `git push`
 
-Man kan nu kontrollera att förändringarna finns på Github och man kan nu klona ner dessa på liknande särr till en annan dator man vill jobba vidare på.
+Man kan nu kontrollera att förändringarna finns på GitHub och man kan nu klona ner dessa på liknande särr till en annan dator man vill jobba vidare på.
 
 
 ## Övning
 Nu ska du få testa lite själv. Din uppgift blir nu följande.
 
-1. Logga in på ditt Githubkonto och skapa ett nytt repositorie där. Skapa en readme-fil och en ignore-fil i repositoriet. [Läs mer om ignore-filer](http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository#Ignoring-Files).
+1. Logga in på ditt GitHubkonto och skapa ett nytt repositorie där. Skapa en readme-fil och en ignore-fil i repositoriet. [Läs mer om ignore-filer](http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository#Ignoring-Files).
 2. Skapa en katalog med namnet "projects", via terminalfönstret, på lämplig plats i ditt filsystem. 
 3. Klona nu ut repositoriet till din lokala dator till den mapp du nyss skapade.
-4. Skapa en ny fil, index.html, och lägg till den i repositoriet och skicka sedan upp till github. Besök sidan för ditt github-repositorie och kontrollera att filen finns där.
-5. Gör en mindre förändring i index.html samt skapa en ny fil, contacts.html. Se nu till att den nya filen och den nya förändringen hamnar i en ny commit upp på github.
+4. Skapa en ny fil, index.html, och lägg till den i repositoriet och skicka sedan upp till GitHub. Besök sidan för ditt GitHub-repositorie och kontrollera att filen finns där.
+5. Gör en mindre förändring i index.html samt skapa en ny fil, contacts.html. Se nu till att den nya filen och den nya förändringen hamnar i en ny commit upp på GitHub.
 6. Skapa en ny mapp, "projects_simulate" för att simulera att vi nu satt oss och jobba vid en ny dator. Klona nu ner repositoriet på nytt till denna mapp och kontrollera att det har alla de uppdaterade filerna med sig.
-7. Gör en förändring i någon av filerna och gör en commit på detta. Skicka sedan upp det till github igen. Kontrollera att förändringen kom med.
-8. Gå nu tillbaka till den första mappen "projects". Kontrollera statusen. Du bör där se att den senaste förändringen som finns på github inte finns där ännu. Vi måste på något sätt ladda ner den innan vi kan fortsätta jobba. Annars kommer vi hamna i osynk och det vill vi inte. Det är därför viktigt att via terminalfönstret ställer oss i mappen och kör kommandot:
+7. Gör en förändring i någon av filerna och gör en commit på detta. Skicka sedan upp det till GitHub igen. Kontrollera att förändringen kom med.
+8. Gå nu tillbaka till den första mappen "projects". Kontrollera statusen. Du bör där se att den senaste förändringen som finns på GitHub inte finns där ännu. Vi måste på något sätt ladda ner den innan vi kan fortsätta jobba. Annars kommer vi hamna i osynk och det vill vi inte. Det är därför viktigt att via terminalfönstret ställer oss i mappen och kör kommandot:
 	*git pull*
-	Det bör ladda ner de förändringar som gjorts och vi får samma version som finns på github. Vi kan nu fortsätta jobba med filerna.
+	Det bör ladda ner de förändringar som gjorts och vi får samma version som finns på GitHub. Vi kan nu fortsätta jobba med filerna.
 
 Här hittar du två filmer där vi visar hur man kan lösa uppgiften ovan. 
 
@@ -204,9 +204,9 @@ git merge my-new-branch`
 
 Sen bör man naturligtvis köra en `git push` för att skicka upp våra förändringar. Detta brukar vara ett vanligt arbetsflöde när man jobbar med git. Vi kan rekommendera att skriva ut [följande bild](https://www.sonassi.com/wp-content/uploads/2012/07/simple_git_daily_workflow.pdf) för att ha som stöd när man jobbar med Git och Branches.
 
-Detta ska förhoppningsvis gett lite information kring hur du kommer igång med Git och Github. Vi kan vidare rekommendera att du tittar upp följande länkar för ytterligare information:
+Detta ska förhoppningsvis gett lite information kring hur du kommer igång med Git och GitHub. Vi kan vidare rekommendera att du tittar upp följande länkar för ytterligare information:
 
-* [Den interaktiva guiden som github har](https://try.github.io). Den tar upp fler saker än vad vi lärt oss hittils men det kan ändå vara ett bra läge att köra den nu
+* [Den interaktiva guiden som GitHub har](https://try.GitHub.io). Den tar upp fler saker än vad vi lärt oss hittils men det kan ändå vara ett bra läge att köra den nu
 
 * Du bör också skaffa dig förståelse för [taggning](http://git-scm.com/book/en/Git-Basics-Tagging) och [hur man går tillbaka i historiken av sina commits](http://git-scm.com/book/en/Git-Basics-Undoing-Things).
 
@@ -215,15 +215,15 @@ Detta ska förhoppningsvis gett lite information kring hur du kommer igång med 
 
 Föreslå förändringar på denna handledning
 ------------------------------------------
-Detta dokument ligger på [github](https://github.com/LNU-CoursePress/info/blob/master/manualer/github_start.md) och hittar du felaktigheter eller vill föreslå förändringar går det bra att göra det där.
+Detta dokument ligger på [GitHub](https://GitHub.com/LNU-CoursePress/info/blob/master/manualer/GitHub_start.md) och hittar du felaktigheter eller vill föreslå förändringar går det bra att göra det där.
 
 
-[github_reg]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_register.png "Github registration"
-[github_reg_edu]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_register_edu.png "Github registration education"
-[github_startpage]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_startpage.png "Github startpage"
-[github_repo_new]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_repo_new.png "New repository"
-[github_settings]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_settings.png "Settings"
-[github_collaborator]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_collaborator.png "github_collaborator"
+[GitHub_reg]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_register.png "GitHub registration"
+[GitHub_reg_edu]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_register_edu.png "GitHub registration education"
+[GitHub_startpage]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_startpage.png "GitHub startpage"
+[GitHub_repo_new]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_repo_new.png "New repository"
+[GitHub_settings]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_settings.png "Settings"
+[GitHub_collaborator]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_collaborator.png "GitHub_collaborator"
 [git_bash]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/git_bash.png "git_bash"
 [git_version]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/git_version.png "git_version"
 [git_config]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/git_config.png "git_config"
