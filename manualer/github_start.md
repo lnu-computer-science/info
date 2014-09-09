@@ -10,7 +10,7 @@ Har du tidigare arbetat med Git/GitHub kan du mycket väl ha invanda arbetssätt
 
 Git skapades av [Linus Torvalls](http://sv.wikipedia.org/wiki/Linus_Torvalds "Linus Torvalds wikipedia"), ett namn som säkert många känner till som skaparen till operativsystemet Linux. [Git uppkom](http://git-scm.com/book/en/Getting-Started-A-Short-History-of-Git) helt enkelt för att Linus inte tyckte att det fanns ett bra och fritt versionhanteringssystem som kunde hantera all kod som Linux består av och underlätta för alla de olika utvecklare som är inblandade i utvecklingen av operativsystemet. 
 
-I många av våra kurser kommer vi också använda tjänsten [GitHub](http://GitHub.com/ "GitHubs hemsida"). GitHub är en tjänst som ger oss utvecklare möjlighet att, via webben, skapa, hantera och lagra projekt och dess data via Git. GitHub ger oss också möjlighet att dela kod med andra, studera andras kod och använda andras kod för att bygga vidare på. GitHub är alltså en tjänst för "social coding". Man kan också använda GitHub för att dela utvecklingsfiler i privata grupper eller som ensam utvecklare hantera sina filer på ett smidigt sätt. Vi skulle kunna kalla det ett slags Facebook, fast för kod. På senare tid har dock allt fler upptäckt möjligheterna med Git och GitHub och nu för tiden hittar man inte bara mjukvaruprojekt på GitHub utan används även av författare, lärare och en mängd andra branscher. Ta t.ex. en titt på [Government GitHub](https://government.GitHub.com/).
+I många av våra kurser kommer vi också använda tjänsten [GitHub](http://github.com/ "GitHubs hemsida"). GitHub är en tjänst som ger oss utvecklare möjlighet att, via webben, skapa, hantera och lagra projekt och dess data via Git. GitHub ger oss också möjlighet att dela kod med andra, studera andras kod och använda andras kod för att bygga vidare på. GitHub är alltså en tjänst för "social coding". Man kan också använda GitHub för att dela utvecklingsfiler i privata grupper eller som ensam utvecklare hantera sina filer på ett smidigt sätt. Vi skulle kunna kalla det ett slags Facebook, fast för kod. På senare tid har dock allt fler upptäckt möjligheterna med Git och GitHub och nu för tiden hittar man inte bara mjukvaruprojekt på GitHub utan används även av författare, lärare och en mängd andra branscher. Ta t.ex. en titt på [Government GitHub](https://government.github.com/).
 
 
 ##Varför vill vi att du använder Git och GitHub?
@@ -50,7 +50,7 @@ Fyll i formuläret som ovan fast med ditt eget användarnamn.
 
 ###Uppgradera ditt GitHub-konto till education
 
-Nästa steg är att registrera detta nyskapade konto som ett studentkonto. Gå till länken: [http://www.GitHub.com/edu](http://www.GitHub.com/edu)
+Nästa steg är att registrera detta nyskapade konto som ett studentkonto. Gå till länken: [http://www.github.com/edu](http://www.GitHub.com/edu)
 Välj **Request a discount**, logga in om du inte gjort det och välj sedan **Student**, klicka på nästa och följ instruktionerna. Efter denna process bör du få ett e-postmeddelande från GitHub och du har möjlighet att skapa upp till fem privata repositorier. 
 
 
@@ -134,9 +134,9 @@ Vilket också är det vanligaste fallet. Kolla nu status på ditt repositorie ig
 
 Filen är nu tillagd i vad man kallar "staging area" men den är fortfarande inte helt versionshanterad. Vi måste också göra en så kallad "commit" för att få till detta. En "commit" gör man när man suttit och jobbat ett tag med något, kanske skrivit en deluppgift, implementerat en funktion i sin applikation eller kanske bara tar en paus och vill spara undan det man gjort hittils. Man brukar säga att man ska "commit:a" sin kod ofta men inte så att det blir absurt. En "commit" ska också innehålla en bra kommentar som beskriver för andra vad du gjort sedan sist. Även om du kommer jobba ensam i vissa repositorier så var noga med att skriva bra och förklarande kommentarer till dina commit:s. För att göra en commit skriver du i terminalfönstret:
 
-`git commit -m "Jag har precis skapat filen index.html. Den är dock fortfarande tom"`
+`git commit -m "I have created the file index.html, but it is still empty"`
 
-Du bör såklart byta ut kommentaren innanför citattecknen mot en kommentar som passar i ditt fall, Kontrollera nu ditt repositories status
+Du bör såklart byta ut kommentaren innanför citattecknen mot en kommentar som passar i ditt fall. Det kan vara bra att skriva kommentarerna på engelska då man ibland stöter på problem med svenska tecken. Kontrollera nu ditt repositories status
 
 `git status`
 
@@ -154,7 +154,7 @@ På ditt nya repositories första sida, nere till höger, kommer du se något so
 
 Gå till terminalfönstret och navigera dig till den mapp där du vill kopiera ner repositoriet och skriv:
 
-`git clone https://GitHub.com/xx222xx/myRepo.git`
+`git clone https://github.com/xx222xx/myRepo.git`
 
 där den sista delen är den address du kopierade. Du har nu sparat ner en exakt kopia av det som låg på GitHub. Alla filerna bör ha hamnat i en mapp som om man tittar på addressen ovan borde heta "myRepo". Du har nu ett lokalt skapat repositorie och kan jobba vidare med "add" och "commit" under arbetets gång. Observera dock att dessa förändringar bara sker lokalt än så länge.
 
