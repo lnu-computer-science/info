@@ -2,7 +2,6 @@ Denna handledning innehåller en kort introduktion till Git och GitHub samt en f
 
 För att hänga med i guiden utgår vi från att du har en grundläggande datorkunskap.
 
-Har du tidigare arbetat med Git/GitHub kan du mycket väl ha invanda arbetssätt som du är fri att använda även i våra kurser, men läs igenom guiden nedan och eventuella krav respektive kurs har.
 
 ##Vad är Git och GitHub?
 
