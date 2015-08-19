@@ -1,4 +1,4 @@
-#Git
+##Git
 Git är ett versionssystem medans GitHub är en tjänst som använder sig av git för att bygga en webbplats.
 
 Vi ska nu börja titta på hur vi arbetar med Git. Denna guide har valt att koncentrera sig på hur man arbetar med Git via ett terminalfönster. Det finns grafiska klienter att använda men dessa får du själv upptäcka när du väl lärt dig grunderna i Git-kommandon. Du kommer arbeta med terminalfönster mycket under din utbildning så att bli van vid detta är viktigt.
