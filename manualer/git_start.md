@@ -152,3 +152,8 @@ Föreslå förändringar på denna handledning
 ------------------------------------------
 Detta dokument ligger på [GitHub](https://GitHub.com/LNU-CoursePress/info/blob/master/manualer/GitHub_start.md) och hittar du felaktigheter eller vill föreslå förändringar går det bra att göra det där.
 
+[git_bash]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/git_bash.png "git_bash"
+[git_version]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/git_version.png "git_version"
+[git_config]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/git_config.png "git_config"
+
+

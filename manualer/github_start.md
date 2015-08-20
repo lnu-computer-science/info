@@ -73,6 +73,3 @@ Du kan här välja om du vill skapa ditt repositorie public (alla kan se din kod
 [GitHub_repo_new]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_repo_new.png "New repository"
 [GitHub_settings]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_settings.png "Settings"
 [GitHub_collaborator]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/github_collaborator.png "GitHub_collaborator"
-[git_bash]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/git_bash.png "git_bash"
-[git_version]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/git_version.png "git_version"
-[git_config]: https://raw.github.com/LNU-CoursePress/info/master/manualer/images/git_config.png "git_config"
